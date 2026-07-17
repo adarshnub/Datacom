@@ -1,9 +1,7 @@
 "use client";
 
-import dynamic from "next/dynamic";
 import { FormEvent, useEffect, useMemo, useState } from "react";
 import {
-  ArrowDown,
   ArrowRight,
   ArrowUpRight,
   BadgeCheck,
@@ -13,29 +11,18 @@ import {
   ChevronDown,
   CircleUserRound,
   Database,
-  FileCheck2,
   Globe2,
   GraduationCap,
   Menu,
   Network,
   Search,
-  ShieldCheck,
   Sparkles,
   X,
   Zap,
 } from "lucide-react";
 import ProductFinder from "./components/ProductFinder";
+import ScrollFilm from "./components/ScrollFilm";
 import { faqs, solutions, trustProof, type Locale } from "./content";
-
-const DigitalTwin = dynamic(() => import("./components/DigitalTwin"), {
-  ssr: false,
-  loading: () => (
-    <div className="twin-loading">
-      <span />
-      <p>INITIALISING DIGITAL TWIN</p>
-    </div>
-  ),
-});
 
 function BrandMark({ compact = false }: { compact?: boolean }) {
   return (
@@ -156,49 +143,7 @@ export default function Home() {
         </div>
       )}
 
-      <section className="hero section" aria-labelledby="hero-title">
-        <div className="hero-orbit" aria-hidden="true" />
-        <div className="hero-copy">
-          <div className="hero-kicker">
-            <span className="signal-dot" />
-            {isArabic ? "البنية التحتية التي لا تراها. الأداء الذي تعتمد عليه." : "THE INFRASTRUCTURE YOU DON'T SEE. THE PERFORMANCE YOU DEPEND ON."}
-          </div>
-          <h1 id="hero-title">
-            {isArabic ? (
-              <>الطبقة <em>الخفية</em><br />داخل كل مبنى.</>
-            ) : (
-              <>The <em>hidden layer</em><br />inside every building.</>
-            )}
-          </h1>
-          <p>
-            {isArabic
-              ? "نصمم ونصنّع البنية المادية التي تحمل العالم المتصل — من غرفة البيانات إلى آخر منفذ."
-              : "We engineer and manufacture the physical infrastructure that carries the connected world—from the data hall to the final port."}
-          </p>
-          <div className="hero-actions">
-            <a className="primary-button" href="#twin">
-              <Sparkles size={17} />
-              {isArabic ? "استكشف المبنى" : "Explore the building"}
-              <ArrowDown size={17} />
-            </a>
-            <button className="secondary-button" onClick={goToProducts}>
-              <Search size={17} />
-              {isArabic ? "البحث برقم القطعة" : "Search a part number"}
-            </button>
-          </div>
-          <div className="hero-proof">
-            <span><ShieldCheck /> {isArabic ? "ضمان نظام 25 عاماً" : "25-year system warranty"}</span>
-            <span><FileCheck2 /> {isArabic ? "مختبرات تحقق مستقلة" : "Independently verified"}</span>
-          </div>
-        </div>
-        <div id="twin" className="hero-twin">
-          <DigitalTwin locale={locale} />
-        </div>
-        <div className="scroll-cue">
-          <span>SCROLL TO ENTER</span>
-          <i />
-        </div>
-      </section>
+      <ScrollFilm locale={locale} onSearchProducts={goToProducts} />
 
       <section className="proof-ticker" aria-label={isArabic ? "حقائق داتاكوم" : "Datacom facts"}>
         <div className="proof-ticker-label">
