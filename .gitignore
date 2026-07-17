@@ -7,3 +7,4 @@ out
 !.env.example
 .meshy/
 public/models/datacom/raw/
+/tmp/

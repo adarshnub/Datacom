@@ -1,0 +1,177 @@
+[
+  {
+    "id": "dc-1ubpnb-data-centre-server-cabinet-sx-series",
+    "code": "DC-1UBPNB",
+    "name": "Data Centre Server Cabinet,Sx Series",
+    "family": "Data Centre",
+    "subcategory": "Datacom Sx Series Server Cabinets",
+    "spec": "1500 kg load",
+    "badge": "Data Centre",
+    "image": "/product-catalog/1-3-server-cabinet-datacenter-server-cabinet-dcs-series-b2d8e9f.webp",
+    "pages": 2,
+    "partNumbers": [
+      "DC-1UBPNB",
+      "DC-1UBPSB",
+      "DC-SX4762P1P2B",
+      "DC-SX4782P1P2B"
+    ],
+    "groupId": "group-datacenter-cabinet-server-cabinets-727d0ff",
+    "featured": true
+  },
+  {
+    "id": "dc-nc4281g1p2b-floor-standing-cabinet",
+    "code": "DC-NC4281G1P2B",
+    "name": "Floor Standing Cabinet",
+    "family": "Cabinets",
+    "subcategory": "Datacom Floor Standing Cabinet",
+    "spec": "IP20",
+    "badge": "Verified datasheet",
+    "image": "/product-catalog/floor-standing-cabinet-0d9f6f9.webp",
+    "pages": 3,
+    "partNumbers": [
+      "DC-NC4281G1P2B",
+      "DC-NC4288P1P2B"
+    ],
+    "groupId": "group-cabinet-enclosures-floor-stanading-cabinet-1ab4b32",
+    "featured": true
+  },
+  {
+    "id": "dc-08f2013x6gswu-a5-datacom-multi-chamber-outdoor-cabinet",
+    "code": "DC-08F2013X6GSWU-A5",
+    "name": "Datacom Multi Chamber Outdoor Cabinet",
+    "family": "Cabinets",
+    "subcategory": "Outdoor Cabinets",
+    "spec": "IP55",
+    "badge": "Outside plant",
+    "image": "/product-catalog/1-3-outdoor-equipment-cabinet-with-cooling-and-monitoring-c17091d.webp",
+    "pages": 2,
+    "partNumbers": [
+      "DC-08F2013X6GSWU-A5"
+    ],
+    "groupId": "group-outdoor-cabinets-images-080a17a",
+    "featured": true
+  },
+  {
+    "id": "dc-cl8xsf3or-cat8-s-ftp-23-awg-cable-lszh",
+    "code": "DC-CL8XSF3OR",
+    "name": "Cat8 S/FTP 23 Awg Cable LSZH",
+    "family": "Copper",
+    "subcategory": "Cat 8 Cable",
+    "spec": "Category 8 · 2000 MHz · 40G",
+    "badge": "Verified datasheet",
+    "image": "/product-catalog/cat8-sftp-23awg-cable-lszh-8746605.webp",
+    "pages": 2,
+    "partNumbers": [
+      "DC-CL8XSF3OR"
+    ],
+    "groupId": "group-copper-cables-cat8-cable-cat8-sftp-23awg-cable-lszh-fa6c9ca",
+    "featured": true
+  },
+  {
+    "id": "dc-knye00819pv-d-sense-series-knx-cable",
+    "code": "DC-KNYE00819PV",
+    "name": "D-SENSE Series Knx Cable",
+    "family": "Building Systems",
+    "subcategory": "Datacom D-Sense Series Knx Cable",
+    "spec": "LSZH",
+    "badge": "D-SENSE",
+    "image": "/product-catalog/d-sense-series-knx-cable-006fa1f.webp",
+    "pages": 2,
+    "partNumbers": [
+      "DC-KNYE00819PV",
+      "DC-KNYE00820PV",
+      "DC-KNYE00905LZ",
+      "DC-KNYE00906LZ"
+    ],
+    "groupId": "group-bms-cable-photo-datacom-d-sense-series-knx-cable-f951c0c",
+    "featured": true
+  },
+  {
+    "id": "dc-rs9841lz-d-sense-series-rs485-automation-cable",
+    "code": "DC-RS9841LZ",
+    "name": "D-SENSE Series Rs485 Automation Cable",
+    "family": "Building Systems",
+    "subcategory": "Datacom D-Sense Series Rs485 Automation Cable",
+    "spec": "LSZH",
+    "badge": "D-SENSE",
+    "image": "/product-catalog/d-sense-series-rs485-automation-cable-shielded-with-foiled-e982a1a.webp",
+    "pages": 2,
+    "partNumbers": [
+      "DC-RS9841LZ",
+      "DC-RS9841PV",
+      "DC-RS9842LZ",
+      "DC-RS9842PV",
+      "DC-RS9843LZ",
+      "DC-RS9843PV",
+      "DC-RS9844LZ",
+      "DC-RS9844PV"
+    ],
+    "groupId": "group-bms-cable-photo-datacom-d-sense-series-rs485-automation-cable-c01b8b1",
+    "featured": true
+  },
+  {
+    "id": "dc-qn6mpp13s-144b-qnet-hd6-series-mpo-panel",
+    "code": "DC-QN6MPP13S-144B",
+    "name": "QNET Hd6 Series MPO Panel",
+    "family": "Data Centre",
+    "subcategory": "Mpo Panel",
+    "spec": "MPO/MTP · up to 144F · IP20",
+    "badge": "Data Centre",
+    "image": "/product-catalog/panel-d5d3582.webp",
+    "pages": 2,
+    "partNumbers": [
+      "DC-QN6MPP13S-144B"
+    ],
+    "groupId": "group-data-center-dc-connectivity-products-mpo-cassettes-and-chassis-panel-3b11434",
+    "featured": true
+  },
+  {
+    "id": "dc-ppu-19-fo-144-bk-144-port-sc-simplex-lcduplex-unloaded-hd-patch-panel",
+    "code": "DC-PPU-19-FO-144-BK",
+    "name": "144 Port Sc Simplex(Lcduplex) Unloaded Hd Patch Panel",
+    "family": "Fibre",
+    "subcategory": "Datacom-Fiber Panel And Accessories",
+    "spec": "up to 144F",
+    "badge": "Verified datasheet",
+    "image": "/product-catalog/panel-d5d3582.webp",
+    "pages": 2,
+    "partNumbers": [
+      "DC-PPU-19-FO-144-BK"
+    ],
+    "groupId": "group-data-center-dc-connectivity-products-mpo-cassettes-and-chassis-panel-3b11434",
+    "featured": true
+  },
+  {
+    "id": "dc-pdi-nhblk-06-horizontal-power-distribution-unit",
+    "code": "DC-PDI-NHBLK-06",
+    "name": "Horizontal Power Distribution Unit",
+    "family": "Power",
+    "subcategory": "13Amp, Single Phase",
+    "spec": "Power · Technical specification",
+    "badge": "Verified datasheet",
+    "image": "/product-catalog/basic-horizontal-pdu-eee292c.webp",
+    "pages": 1,
+    "partNumbers": [
+      "DC-PDI-NHBLK-06",
+      "DC-PDI-SHBLK-06"
+    ],
+    "groupId": "group-power-distribution-units-basic-pdu-horizontal-power-distribution-unit-3ce1aed",
+    "featured": true
+  },
+  {
+    "id": "dc-s1au12nc-v9b-intelligent-power-distribution-unit",
+    "code": "DC-S1AU12NC-V9B",
+    "name": "Intelligent Power Distribution Unit",
+    "family": "Power",
+    "subcategory": "Smart Pdu",
+    "spec": "SNMP monitoring",
+    "badge": "Intelligent infrastructure",
+    "image": "/product-catalog/dc-series-2ef8137.webp",
+    "pages": 3,
+    "partNumbers": [
+      "DC-S1AU12NC-V9B"
+    ],
+    "groupId": "group-power-distribution-units-smart-pdu-coo-turkey-63a1b9a",
+    "featured": true
+  }
+]

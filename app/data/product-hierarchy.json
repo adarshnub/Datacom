@@ -1,0 +1,2483 @@
+[
+  {
+    "id": "node-bms-cable-photo-b2a7f0a",
+    "name": "BMS Cable Photo",
+    "sourceName": "BMS CABLE_PHOTO",
+    "path": "BMS CABLE_PHOTO",
+    "pathSegments": [
+      "BMS CABLE_PHOTO"
+    ],
+    "breadcrumbs": [
+      "BMS Cable Photo"
+    ],
+    "depth": 1,
+    "parentId": null,
+    "childIds": [
+      "node-bms-cable-photo-datacom-d-sense-series-audio-control-instrumentation-c-b0e656d",
+      "node-bms-cable-photo-datacom-d-sense-series-audio-control-instrumentation-c-7a2e171",
+      "node-bms-cable-photo-datacom-d-sense-series-control-and-instrumentation-f7ea016",
+      "node-bms-cable-photo-datacom-d-sense-series-control-cable-shielded-1301969",
+      "node-bms-cable-photo-datacom-d-sense-series-knx-cable-f951c0c",
+      "node-bms-cable-photo-datacom-d-sense-series-public-address-cable-d50588c",
+      "node-bms-cable-photo-datacom-d-sense-series-rs485-automation-cable-c01b8b1"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 7,
+    "productGroupCount": 7,
+    "preview": "/product-catalog/d-sense-series-audio-control-instrumentation-cable-shielded-2d819cc.webp"
+  },
+  {
+    "id": "node-cabinet-enclosures-74bfe8e",
+    "name": "Cabinet & Enclosures",
+    "sourceName": "CABINET & ENCLOSURES",
+    "path": "CABINET & ENCLOSURES",
+    "pathSegments": [
+      "CABINET & ENCLOSURES"
+    ],
+    "breadcrumbs": [
+      "Cabinet & Enclosures"
+    ],
+    "depth": 1,
+    "parentId": null,
+    "childIds": [
+      "node-cabinet-enclosures-cabinet-accessories-6a9f141",
+      "node-cabinet-enclosures-cable-management-accessories-62f3d63",
+      "node-cabinet-enclosures-floor-stanading-cabinet-1ab4b32",
+      "node-cabinet-enclosures-fttx-wallmount-cabinet-7b935f2",
+      "node-cabinet-enclosures-wall-mount-cabinet-907c091"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 16,
+    "productGroupCount": 7,
+    "preview": "/product-catalog/1-5cabinet-accessories-91ae23f.webp"
+  },
+  {
+    "id": "node-copper-cables-ea7316a",
+    "name": "Copper Cables",
+    "sourceName": "COPPER CABLES",
+    "path": "COPPER CABLES",
+    "pathSegments": [
+      "COPPER CABLES"
+    ],
+    "breadcrumbs": [
+      "Copper Cables"
+    ],
+    "depth": 1,
+    "parentId": null,
+    "childIds": [
+      "node-copper-cables-cat-6-cable-75a3e30",
+      "node-copper-cables-cat6a-cable-8800609",
+      "node-copper-cables-cat8-cable-666cf1e"
+    ],
+    "directProductGroupId": "group-copper-cables-ea7316a",
+    "directImageCount": 1,
+    "totalImageCount": 13,
+    "productGroupCount": 12,
+    "preview": "/product-catalog/cat-6-utp-23awg-cable-lszh-703eb3a.webp"
+  },
+  {
+    "id": "node-copper-connectivity-71e40a0",
+    "name": "Copper Connectivity",
+    "sourceName": "COPPER CONNECTIVITY",
+    "path": "COPPER CONNECTIVITY",
+    "pathSegments": [
+      "COPPER CONNECTIVITY"
+    ],
+    "breadcrumbs": [
+      "Copper Connectivity"
+    ],
+    "depth": 1,
+    "parentId": null,
+    "childIds": [
+      "node-copper-connectivity-copper-patch-cord-be69a9a",
+      "node-copper-connectivity-face-plates-and-adapters-4354573",
+      "node-copper-connectivity-keystone-jacks-and-plug-0e0b386",
+      "node-copper-connectivity-patch-panel-642e7f4"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 30,
+    "productGroupCount": 18,
+    "preview": "/product-catalog/cat-6a-sftp-slim-patchcords-26awg-a997f8e.webp"
+  },
+  {
+    "id": "node-data-center-dc-connectivity-products-1eb3253",
+    "name": "Data Center (DC) connectivity Products",
+    "sourceName": "Data Center (DC) connectivity Products",
+    "path": "Data Center (DC) connectivity Products",
+    "pathSegments": [
+      "Data Center (DC) connectivity Products"
+    ],
+    "breadcrumbs": [
+      "Data Center (DC) connectivity Products"
+    ],
+    "depth": 1,
+    "parentId": null,
+    "childIds": [
+      "node-data-center-dc-connectivity-products-mpo-cassettes-and-chassis-panel-3b11434",
+      "node-data-center-dc-connectivity-products-pre-terminated-mpomtp-cabling-db1051e"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 6,
+    "productGroupCount": 2,
+    "preview": "/product-catalog/12-lc-cassets-44c2f7b.webp"
+  },
+  {
+    "id": "node-datacenter-cabinet-2ad8c4c",
+    "name": "Data Centre Cabinet",
+    "sourceName": "DATACENTER CABINET",
+    "path": "DATACENTER CABINET",
+    "pathSegments": [
+      "DATACENTER CABINET"
+    ],
+    "breadcrumbs": [
+      "Data Centre Cabinet"
+    ],
+    "depth": 1,
+    "parentId": null,
+    "childIds": [
+      "node-datacenter-cabinet-server-cabinets-727d0ff"
+    ],
+    "directProductGroupId": "group-datacenter-cabinet-2ad8c4c",
+    "directImageCount": 4,
+    "totalImageCount": 7,
+    "productGroupCount": 2,
+    "preview": "/product-catalog/10-row-8c92c5d.webp"
+  },
+  {
+    "id": "node-ems-784f232",
+    "name": "EMS",
+    "sourceName": "EMS",
+    "path": "EMS",
+    "pathSegments": [
+      "EMS"
+    ],
+    "breadcrumbs": [
+      "EMS"
+    ],
+    "depth": 1,
+    "parentId": null,
+    "childIds": [
+      "node-ems-edited-with-datacom-logo-bc878a9"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 13,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1-dems-th-7b67cb2.webp"
+  },
+  {
+    "id": "node-fiber-optic-8149b60",
+    "name": "Fiber Optic",
+    "sourceName": "FIBER OPTIC",
+    "path": "FIBER OPTIC",
+    "pathSegments": [
+      "FIBER OPTIC"
+    ],
+    "breadcrumbs": [
+      "Fiber Optic"
+    ],
+    "depth": 1,
+    "parentId": null,
+    "childIds": [
+      "node-fiber-optic-fiber-cables-6b9cf13",
+      "node-fiber-optic-fiber-management-enclosures-6db0adc",
+      "node-fiber-optic-fiber-panel-and-adapters-c8a953f",
+      "node-fiber-optic-pigtails-and-patch-cords-5ae7b95",
+      "node-fiber-optic-plc-splitters-957c221"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 62,
+    "productGroupCount": 17,
+    "preview": "/product-catalog/1-3indoor-outdoor-4e536df.webp"
+  },
+  {
+    "id": "node-outdoor-cabinets-4ab4959",
+    "name": "Outdoor Cabinets",
+    "sourceName": "OUTDOOR CABINETS",
+    "path": "OUTDOOR CABINETS",
+    "pathSegments": [
+      "OUTDOOR CABINETS"
+    ],
+    "breadcrumbs": [
+      "Outdoor Cabinets"
+    ],
+    "depth": 1,
+    "parentId": null,
+    "childIds": [
+      "node-outdoor-cabinets-images-080a17a"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 3,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1-3-outdoor-equipment-cabinet-with-cooling-and-monitoring-c17091d.webp"
+  },
+  {
+    "id": "node-power-distribution-units-7c3279d",
+    "name": "Power Distribution Units",
+    "sourceName": "POWER DISTRIBUTION UNITS",
+    "path": "POWER DISTRIBUTION UNITS",
+    "pathSegments": [
+      "POWER DISTRIBUTION UNITS"
+    ],
+    "breadcrumbs": [
+      "Power Distribution Units"
+    ],
+    "depth": 1,
+    "parentId": null,
+    "childIds": [
+      "node-power-distribution-units-basic-pdu-a5f921f",
+      "node-power-distribution-units-smart-pdu-0fbf358"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 16,
+    "productGroupCount": 5,
+    "preview": "/product-catalog/1-2-basic-vertical-pdu-9d88723.webp"
+  },
+  {
+    "id": "node-bms-cable-photo-datacom-d-sense-series-audio-control-instrumentation-c-b0e656d",
+    "name": "Datacom D Sense Series Audio Control & Instrumentation Cable (Shielded)",
+    "sourceName": "DATACOM D-SENSE SERIES AUDIO CONTROL & INSTRUMENTATION CABLE (SHIELDED)",
+    "path": "BMS CABLE_PHOTO/DATACOM D-SENSE SERIES AUDIO CONTROL & INSTRUMENTATION CABLE (SHIELDED)",
+    "pathSegments": [
+      "BMS CABLE_PHOTO",
+      "DATACOM D-SENSE SERIES AUDIO CONTROL & INSTRUMENTATION CABLE (SHIELDED)"
+    ],
+    "breadcrumbs": [
+      "BMS Cable Photo",
+      "Datacom D Sense Series Audio Control & Instrumentation Cable (Shielded)"
+    ],
+    "depth": 2,
+    "parentId": "node-bms-cable-photo-b2a7f0a",
+    "childIds": [],
+    "directProductGroupId": "group-bms-cable-photo-datacom-d-sense-series-audio-control-instrumentation-c-b0e656d",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/d-sense-series-audio-control-instrumentation-cable-shielded-2d819cc.webp"
+  },
+  {
+    "id": "node-bms-cable-photo-datacom-d-sense-series-audio-control-instrumentation-c-7a2e171",
+    "name": "Datacom D Sense Series Audio Control & Instrumentation Cable (Unshielded)",
+    "sourceName": "DATACOM D-SENSE SERIES AUDIO CONTROL & INSTRUMENTATION CABLE (UNSHIELDED)",
+    "path": "BMS CABLE_PHOTO/DATACOM D-SENSE SERIES AUDIO CONTROL & INSTRUMENTATION CABLE (UNSHIELDED)",
+    "pathSegments": [
+      "BMS CABLE_PHOTO",
+      "DATACOM D-SENSE SERIES AUDIO CONTROL & INSTRUMENTATION CABLE (UNSHIELDED)"
+    ],
+    "breadcrumbs": [
+      "BMS Cable Photo",
+      "Datacom D Sense Series Audio Control & Instrumentation Cable (Unshielded)"
+    ],
+    "depth": 2,
+    "parentId": "node-bms-cable-photo-b2a7f0a",
+    "childIds": [],
+    "directProductGroupId": "group-bms-cable-photo-datacom-d-sense-series-audio-control-instrumentation-c-7a2e171",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/d-sense-series-audio-control-instrumentation-cable-unshielde-0ba8615.webp"
+  },
+  {
+    "id": "node-bms-cable-photo-datacom-d-sense-series-control-and-instrumentation-f7ea016",
+    "name": "Datacom D Sense Series Control And Instrumentation",
+    "sourceName": "DATACOM D-SENSE SERIES CONTROL AND INSTRUMENTATION",
+    "path": "BMS CABLE_PHOTO/DATACOM D-SENSE SERIES CONTROL AND INSTRUMENTATION",
+    "pathSegments": [
+      "BMS CABLE_PHOTO",
+      "DATACOM D-SENSE SERIES CONTROL AND INSTRUMENTATION"
+    ],
+    "breadcrumbs": [
+      "BMS Cable Photo",
+      "Datacom D Sense Series Control And Instrumentation"
+    ],
+    "depth": 2,
+    "parentId": "node-bms-cable-photo-b2a7f0a",
+    "childIds": [],
+    "directProductGroupId": "group-bms-cable-photo-datacom-d-sense-series-control-and-instrumentation-f7ea016",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/d-sense-series-control-and-instrumentation-cdcb0a1.webp"
+  },
+  {
+    "id": "node-bms-cable-photo-datacom-d-sense-series-control-cable-shielded-1301969",
+    "name": "Datacom D Sense Series Control Cable Shielded",
+    "sourceName": "DATACOM D-SENSE SERIES CONTROL CABLE-SHIELDED",
+    "path": "BMS CABLE_PHOTO/DATACOM D-SENSE SERIES CONTROL CABLE-SHIELDED",
+    "pathSegments": [
+      "BMS CABLE_PHOTO",
+      "DATACOM D-SENSE SERIES CONTROL CABLE-SHIELDED"
+    ],
+    "breadcrumbs": [
+      "BMS Cable Photo",
+      "Datacom D Sense Series Control Cable Shielded"
+    ],
+    "depth": 2,
+    "parentId": "node-bms-cable-photo-b2a7f0a",
+    "childIds": [],
+    "directProductGroupId": "group-bms-cable-photo-datacom-d-sense-series-control-cable-shielded-1301969",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/d-sense-series-control-cable-shielded-beae200.webp"
+  },
+  {
+    "id": "node-bms-cable-photo-datacom-d-sense-series-knx-cable-f951c0c",
+    "name": "Datacom D Sense Series Knx Cable",
+    "sourceName": "DATACOM D-SENSE SERIES KNX CABLE",
+    "path": "BMS CABLE_PHOTO/DATACOM D-SENSE SERIES KNX CABLE",
+    "pathSegments": [
+      "BMS CABLE_PHOTO",
+      "DATACOM D-SENSE SERIES KNX CABLE"
+    ],
+    "breadcrumbs": [
+      "BMS Cable Photo",
+      "Datacom D Sense Series Knx Cable"
+    ],
+    "depth": 2,
+    "parentId": "node-bms-cable-photo-b2a7f0a",
+    "childIds": [],
+    "directProductGroupId": "group-bms-cable-photo-datacom-d-sense-series-knx-cable-f951c0c",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/d-sense-series-knx-cable-006fa1f.webp"
+  },
+  {
+    "id": "node-bms-cable-photo-datacom-d-sense-series-public-address-cable-d50588c",
+    "name": "Datacom D Sense Series Public Address Cable",
+    "sourceName": "DATACOM D-SENSE SERIES PUBLIC ADDRESS CABLE",
+    "path": "BMS CABLE_PHOTO/DATACOM D-SENSE SERIES PUBLIC ADDRESS CABLE",
+    "pathSegments": [
+      "BMS CABLE_PHOTO",
+      "DATACOM D-SENSE SERIES PUBLIC ADDRESS CABLE"
+    ],
+    "breadcrumbs": [
+      "BMS Cable Photo",
+      "Datacom D Sense Series Public Address Cable"
+    ],
+    "depth": 2,
+    "parentId": "node-bms-cable-photo-b2a7f0a",
+    "childIds": [],
+    "directProductGroupId": "group-bms-cable-photo-datacom-d-sense-series-public-address-cable-d50588c",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/d-sense-series-public-address-cable-98e3522.webp"
+  },
+  {
+    "id": "node-bms-cable-photo-datacom-d-sense-series-rs485-automation-cable-c01b8b1",
+    "name": "Datacom D Sense Series Rs485 Automation Cable",
+    "sourceName": "DATACOM D-SENSE SERIES RS485 AUTOMATION CABLE",
+    "path": "BMS CABLE_PHOTO/DATACOM D-SENSE SERIES RS485 AUTOMATION CABLE",
+    "pathSegments": [
+      "BMS CABLE_PHOTO",
+      "DATACOM D-SENSE SERIES RS485 AUTOMATION CABLE"
+    ],
+    "breadcrumbs": [
+      "BMS Cable Photo",
+      "Datacom D Sense Series Rs485 Automation Cable"
+    ],
+    "depth": 2,
+    "parentId": "node-bms-cable-photo-b2a7f0a",
+    "childIds": [],
+    "directProductGroupId": "group-bms-cable-photo-datacom-d-sense-series-rs485-automation-cable-c01b8b1",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/d-sense-series-rs485-automation-cable-shielded-with-foiled-e982a1a.webp"
+  },
+  {
+    "id": "node-cabinet-enclosures-cabinet-accessories-6a9f141",
+    "name": "Cabinet Accessories",
+    "sourceName": "CABINET ACCESSORIES",
+    "path": "CABINET & ENCLOSURES/CABINET ACCESSORIES",
+    "pathSegments": [
+      "CABINET & ENCLOSURES",
+      "CABINET ACCESSORIES"
+    ],
+    "breadcrumbs": [
+      "Cabinet & Enclosures",
+      "Cabinet Accessories"
+    ],
+    "depth": 2,
+    "parentId": "node-cabinet-enclosures-74bfe8e",
+    "childIds": [],
+    "directProductGroupId": "group-cabinet-enclosures-cabinet-accessories-6a9f141",
+    "directImageCount": 6,
+    "totalImageCount": 6,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1-5cabinet-accessories-91ae23f.webp"
+  },
+  {
+    "id": "node-cabinet-enclosures-cable-management-accessories-62f3d63",
+    "name": "Cable Management Accessories",
+    "sourceName": "CABLE MANAGEMENT ACCESSORIES",
+    "path": "CABINET & ENCLOSURES/CABLE MANAGEMENT ACCESSORIES",
+    "pathSegments": [
+      "CABINET & ENCLOSURES",
+      "CABLE MANAGEMENT ACCESSORIES"
+    ],
+    "breadcrumbs": [
+      "Cabinet & Enclosures",
+      "Cable Management Accessories"
+    ],
+    "depth": 2,
+    "parentId": "node-cabinet-enclosures-74bfe8e",
+    "childIds": [],
+    "directProductGroupId": "group-cabinet-enclosures-cable-management-accessories-62f3d63",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/cable-management-accessories-662ec76.webp"
+  },
+  {
+    "id": "node-cabinet-enclosures-floor-stanading-cabinet-1ab4b32",
+    "name": "Floor Stanading Cabinet",
+    "sourceName": "FLOOR STANADING CABINET",
+    "path": "CABINET & ENCLOSURES/FLOOR STANADING CABINET",
+    "pathSegments": [
+      "CABINET & ENCLOSURES",
+      "FLOOR STANADING CABINET"
+    ],
+    "breadcrumbs": [
+      "Cabinet & Enclosures",
+      "Floor Stanading Cabinet"
+    ],
+    "depth": 2,
+    "parentId": "node-cabinet-enclosures-74bfe8e",
+    "childIds": [],
+    "directProductGroupId": "group-cabinet-enclosures-floor-stanading-cabinet-1ab4b32",
+    "directImageCount": 3,
+    "totalImageCount": 3,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1111-4026b24.webp"
+  },
+  {
+    "id": "node-cabinet-enclosures-fttx-wallmount-cabinet-7b935f2",
+    "name": "FTTx Wallmount Cabinet",
+    "sourceName": "FTTX WALLMOUNT CABINET",
+    "path": "CABINET & ENCLOSURES/FTTX WALLMOUNT CABINET",
+    "pathSegments": [
+      "CABINET & ENCLOSURES",
+      "FTTX WALLMOUNT CABINET"
+    ],
+    "breadcrumbs": [
+      "Cabinet & Enclosures",
+      "FTTx Wallmount Cabinet"
+    ],
+    "depth": 2,
+    "parentId": "node-cabinet-enclosures-74bfe8e",
+    "childIds": [
+      "node-cabinet-enclosures-fttx-wallmount-cabinet-12u-600x150mm-ed04307",
+      "node-cabinet-enclosures-fttx-wallmount-cabinet-12u-600x300-fb9302f"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 2,
+    "productGroupCount": 2,
+    "preview": "/product-catalog/12u-single-section-wallmount-enclosures-150-mm-for-ftth-452bfb2.webp"
+  },
+  {
+    "id": "node-cabinet-enclosures-wall-mount-cabinet-907c091",
+    "name": "Wall Mount Cabinet",
+    "sourceName": "WALL MOUNT CABINET",
+    "path": "CABINET & ENCLOSURES/WALL MOUNT CABINET",
+    "pathSegments": [
+      "CABINET & ENCLOSURES",
+      "WALL MOUNT CABINET"
+    ],
+    "breadcrumbs": [
+      "Cabinet & Enclosures",
+      "Wall Mount Cabinet"
+    ],
+    "depth": 2,
+    "parentId": "node-cabinet-enclosures-74bfe8e",
+    "childIds": [
+      "node-cabinet-enclosures-wall-mount-cabinet-dual-section-52cba9b",
+      "node-cabinet-enclosures-wall-mount-cabinet-single-section-7936c9f"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 4,
+    "productGroupCount": 2,
+    "preview": "/product-catalog/sqs-wall-mount-cabinets-b96e499.webp"
+  },
+  {
+    "id": "node-copper-cables-cat-6-cable-75a3e30",
+    "name": "Cat6 Cable",
+    "sourceName": "CAT 6 CABLE",
+    "path": "COPPER CABLES/CAT 6 CABLE",
+    "pathSegments": [
+      "COPPER CABLES",
+      "CAT 6 CABLE"
+    ],
+    "breadcrumbs": [
+      "Copper Cables",
+      "Cat6 Cable"
+    ],
+    "depth": 2,
+    "parentId": "node-copper-cables-ea7316a",
+    "childIds": [
+      "node-copper-cables-cat-6-cable-cat-6-utp-23awg-cable-lszh-2cf6e07",
+      "node-copper-cables-cat-6-cable-cat-6-utp-23awg-cable-pvc-f71e03a",
+      "node-copper-cables-cat-6-cable-cat6-utp-24awg-cable-pvc-a1209fe",
+      "node-copper-cables-cat-6-cable-outdoor-rated-cat6-utp-23-awg-cable-d262a5e"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 5,
+    "productGroupCount": 4,
+    "preview": "/product-catalog/cat-6-utp-23awg-cable-lszh-703eb3a.webp"
+  },
+  {
+    "id": "node-copper-cables-cat6a-cable-8800609",
+    "name": "Cat6A Cable",
+    "sourceName": "CAT6A CABLE",
+    "path": "COPPER CABLES/CAT6A CABLE",
+    "pathSegments": [
+      "COPPER CABLES",
+      "CAT6A CABLE"
+    ],
+    "breadcrumbs": [
+      "Copper Cables",
+      "Cat6A Cable"
+    ],
+    "depth": 2,
+    "parentId": "node-copper-cables-ea7316a",
+    "childIds": [
+      "node-copper-cables-cat6a-cable-cat-6a-fftp-23-awg-cable-lszh-cfc0f1e",
+      "node-copper-cables-cat6a-cable-cat-6a-sftp-23-awg-cable-lszh-2a23d26",
+      "node-copper-cables-cat6a-cable-cat-6a-sftp-23-awg-outdoor-cable-pe-a94f948",
+      "node-copper-cables-cat6a-cable-cat-6a-uutp-23-awg-cable-lszh-bec15ce",
+      "node-copper-cables-cat6a-cable-outdoor-rated-cat6a-utp-23-awg-cable-afb4546"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 6,
+    "productGroupCount": 6,
+    "preview": "/product-catalog/cat6a-fftp-23awg-cable-lszh-9e75445.webp"
+  },
+  {
+    "id": "node-copper-cables-cat8-cable-666cf1e",
+    "name": "Cat8 Cable",
+    "sourceName": "CAT8 CABLE",
+    "path": "COPPER CABLES/CAT8 CABLE",
+    "pathSegments": [
+      "COPPER CABLES",
+      "CAT8 CABLE"
+    ],
+    "breadcrumbs": [
+      "Copper Cables",
+      "Cat8 Cable"
+    ],
+    "depth": 2,
+    "parentId": "node-copper-cables-ea7316a",
+    "childIds": [
+      "node-copper-cables-cat8-cable-cat8-sftp-23awg-cable-lszh-fa6c9ca"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/cat8-sftp-23awg-cable-lszh-8746605.webp"
+  },
+  {
+    "id": "node-copper-connectivity-copper-patch-cord-be69a9a",
+    "name": "Copper Patch Cord",
+    "sourceName": "COPPER PATCH CORD",
+    "path": "COPPER CONNECTIVITY/COPPER PATCH CORD",
+    "pathSegments": [
+      "COPPER CONNECTIVITY",
+      "COPPER PATCH CORD"
+    ],
+    "breadcrumbs": [
+      "Copper Connectivity",
+      "Copper Patch Cord"
+    ],
+    "depth": 2,
+    "parentId": "node-copper-connectivity-71e40a0",
+    "childIds": [
+      "node-copper-connectivity-copper-patch-cord-stp-0cb2063",
+      "node-copper-connectivity-copper-patch-cord-utp-14ace5b"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 14,
+    "productGroupCount": 6,
+    "preview": "/product-catalog/cat-6a-sftp-slim-patchcords-26awg-a997f8e.webp"
+  },
+  {
+    "id": "node-copper-connectivity-face-plates-and-adapters-4354573",
+    "name": "Face Plates And Adapters",
+    "sourceName": "FACE PLATES AND ADAPTERS",
+    "path": "COPPER CONNECTIVITY/FACE PLATES AND ADAPTERS",
+    "pathSegments": [
+      "COPPER CONNECTIVITY",
+      "FACE PLATES AND ADAPTERS"
+    ],
+    "breadcrumbs": [
+      "Copper Connectivity",
+      "Face Plates And Adapters"
+    ],
+    "depth": 2,
+    "parentId": "node-copper-connectivity-71e40a0",
+    "childIds": [
+      "node-copper-connectivity-face-plates-and-adapters-faceplates-e84318d",
+      "node-copper-connectivity-face-plates-and-adapters-lj6c-angled-and-shuttered-d18bc13",
+      "node-copper-connectivity-face-plates-and-adapters-surface-mount-box-3862acd"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 4,
+    "productGroupCount": 3,
+    "preview": "/product-catalog/1-3-faceplates-adapters-2b8fd39.webp"
+  },
+  {
+    "id": "node-copper-connectivity-keystone-jacks-and-plug-0e0b386",
+    "name": "Keystone Jacks And Plug",
+    "sourceName": "KEYSTONE JACKS AND PLUG",
+    "path": "COPPER CONNECTIVITY/KEYSTONE JACKS AND PLUG",
+    "pathSegments": [
+      "COPPER CONNECTIVITY",
+      "KEYSTONE JACKS AND PLUG"
+    ],
+    "breadcrumbs": [
+      "Copper Connectivity",
+      "Keystone Jacks And Plug"
+    ],
+    "depth": 2,
+    "parentId": "node-copper-connectivity-71e40a0",
+    "childIds": [
+      "node-copper-connectivity-keystone-jacks-and-plug-cat-6-utp-keystone-jack-9a9bd78",
+      "node-copper-connectivity-keystone-jacks-and-plug-cat-6a-shielded-tool-less--9b751f0",
+      "node-copper-connectivity-keystone-jacks-and-plug-cat-6a-uutp-keystone-jack-922ee6b",
+      "node-copper-connectivity-keystone-jacks-and-plug-cat-8-keystone-jcks-91d2e05",
+      "node-copper-connectivity-keystone-jacks-and-plug-plug-e59e481"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 8,
+    "productGroupCount": 7,
+    "preview": "/product-catalog/180-degree-keystone-jack-cat6-6aa9458.webp"
+  },
+  {
+    "id": "node-copper-connectivity-patch-panel-642e7f4",
+    "name": "Patch Panel",
+    "sourceName": "PATCH PANEL",
+    "path": "COPPER CONNECTIVITY/PATCH PANEL",
+    "pathSegments": [
+      "COPPER CONNECTIVITY",
+      "PATCH PANEL"
+    ],
+    "breadcrumbs": [
+      "Copper Connectivity",
+      "Patch Panel"
+    ],
+    "depth": 2,
+    "parentId": "node-copper-connectivity-71e40a0",
+    "childIds": [
+      "node-copper-connectivity-patch-panel-shielded-0952680",
+      "node-copper-connectivity-patch-panel-un-shielded-5e45e38"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 4,
+    "productGroupCount": 2,
+    "preview": "/product-catalog/1-1-modular-sheilded-patch-panel-e5bb36a.webp"
+  },
+  {
+    "id": "node-data-center-dc-connectivity-products-mpo-cassettes-and-chassis-panel-3b11434",
+    "name": "MPO Cassettes And Chassis Panel",
+    "sourceName": "MPO CASSETTES AND CHASSIS PANEL",
+    "path": "Data Center (DC) connectivity Products/MPO CASSETTES AND CHASSIS PANEL",
+    "pathSegments": [
+      "Data Center (DC) connectivity Products",
+      "MPO CASSETTES AND CHASSIS PANEL"
+    ],
+    "breadcrumbs": [
+      "Data Center (DC) connectivity Products",
+      "MPO Cassettes And Chassis Panel"
+    ],
+    "depth": 2,
+    "parentId": "node-data-center-dc-connectivity-products-1eb3253",
+    "childIds": [],
+    "directProductGroupId": "group-data-center-dc-connectivity-products-mpo-cassettes-and-chassis-panel-3b11434",
+    "directImageCount": 4,
+    "totalImageCount": 4,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/12-lc-cassets-44c2f7b.webp"
+  },
+  {
+    "id": "node-data-center-dc-connectivity-products-pre-terminated-mpomtp-cabling-db1051e",
+    "name": "Pre Terminated Mpomtp Cabling",
+    "sourceName": "PRE-TERMINATED MPOMTP CABLING",
+    "path": "Data Center (DC) connectivity Products/PRE-TERMINATED MPOMTP CABLING",
+    "pathSegments": [
+      "Data Center (DC) connectivity Products",
+      "PRE-TERMINATED MPOMTP CABLING"
+    ],
+    "breadcrumbs": [
+      "Data Center (DC) connectivity Products",
+      "Pre Terminated Mpomtp Cabling"
+    ],
+    "depth": 2,
+    "parentId": "node-data-center-dc-connectivity-products-1eb3253",
+    "childIds": [],
+    "directProductGroupId": "group-data-center-dc-connectivity-products-pre-terminated-mpomtp-cabling-db1051e",
+    "directImageCount": 2,
+    "totalImageCount": 2,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/a-gm-m-ad-yellow-cable-and-green-jacket-black-boot-10-11-201-b9ad472.webp"
+  },
+  {
+    "id": "node-datacenter-cabinet-server-cabinets-727d0ff",
+    "name": "Server Cabinets",
+    "sourceName": "SERVER CABINETS",
+    "path": "DATACENTER CABINET/SERVER CABINETS",
+    "pathSegments": [
+      "DATACENTER CABINET",
+      "SERVER CABINETS"
+    ],
+    "breadcrumbs": [
+      "Data Centre Cabinet",
+      "Server Cabinets"
+    ],
+    "depth": 2,
+    "parentId": "node-datacenter-cabinet-2ad8c4c",
+    "childIds": [],
+    "directProductGroupId": "group-datacenter-cabinet-server-cabinets-727d0ff",
+    "directImageCount": 3,
+    "totalImageCount": 3,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1-3-server-cabinet-datacenter-server-cabinet-dcs-series-b2d8e9f.webp"
+  },
+  {
+    "id": "node-ems-edited-with-datacom-logo-bc878a9",
+    "name": "Edited With Datacom Logo",
+    "sourceName": "EDITED WITH DATACOM LOGO",
+    "path": "EMS/EDITED WITH DATACOM LOGO",
+    "pathSegments": [
+      "EMS",
+      "EDITED WITH DATACOM LOGO"
+    ],
+    "breadcrumbs": [
+      "EMS",
+      "Edited With Datacom Logo"
+    ],
+    "depth": 2,
+    "parentId": "node-ems-784f232",
+    "childIds": [],
+    "directProductGroupId": "group-ems-edited-with-datacom-logo-bc878a9",
+    "directImageCount": 13,
+    "totalImageCount": 13,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1-dems-th-7b67cb2.webp"
+  },
+  {
+    "id": "node-fiber-optic-fiber-cables-6b9cf13",
+    "name": "Fiber Cables",
+    "sourceName": "FIBER CABLES",
+    "path": "FIBER OPTIC/FIBER CABLES",
+    "pathSegments": [
+      "FIBER OPTIC",
+      "FIBER CABLES"
+    ],
+    "breadcrumbs": [
+      "Fiber Optic",
+      "Fiber Cables"
+    ],
+    "depth": 2,
+    "parentId": "node-fiber-optic-8149b60",
+    "childIds": [
+      "node-fiber-optic-fiber-cables-indoor-f787105",
+      "node-fiber-optic-fiber-cables-indoor-outdoor-cc01a79",
+      "node-fiber-optic-fiber-cables-out-door-e54583b"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 13,
+    "productGroupCount": 6,
+    "preview": "/product-catalog/1-3indoor-outdoor-4e536df.webp"
+  },
+  {
+    "id": "node-fiber-optic-fiber-management-enclosures-6db0adc",
+    "name": "Fiber Management Enclosures",
+    "sourceName": "FIBER MANAGEMENT ENCLOSURES",
+    "path": "FIBER OPTIC/FIBER MANAGEMENT ENCLOSURES",
+    "pathSegments": [
+      "FIBER OPTIC",
+      "FIBER MANAGEMENT ENCLOSURES"
+    ],
+    "breadcrumbs": [
+      "Fiber Optic",
+      "Fiber Management Enclosures"
+    ],
+    "depth": 2,
+    "parentId": "node-fiber-optic-8149b60",
+    "childIds": [
+      "node-fiber-optic-fiber-management-enclosures-dome-enclosures-df72a8f",
+      "node-fiber-optic-fiber-management-enclosures-fiber-termination-boxes-6f1a9dd",
+      "node-fiber-optic-fiber-management-enclosures-inline-enclosures-1511d60"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 11,
+    "productGroupCount": 4,
+    "preview": "/product-catalog/1-2-dome-enclosures-92f0523.webp"
+  },
+  {
+    "id": "node-fiber-optic-fiber-panel-and-adapters-c8a953f",
+    "name": "Fiber Panel And Adapters",
+    "sourceName": "FIBER PANEL AND ADAPTERS",
+    "path": "FIBER OPTIC/FIBER PANEL AND ADAPTERS",
+    "pathSegments": [
+      "FIBER OPTIC",
+      "FIBER PANEL AND ADAPTERS"
+    ],
+    "breadcrumbs": [
+      "Fiber Optic",
+      "Fiber Panel And Adapters"
+    ],
+    "depth": 2,
+    "parentId": "node-fiber-optic-8149b60",
+    "childIds": [
+      "node-fiber-optic-fiber-panel-and-adapters-adapters-dee94d2",
+      "node-fiber-optic-fiber-panel-and-adapters-fiber-patch-panel-rack-mount-6868422",
+      "node-fiber-optic-fiber-panel-and-adapters-mini-odf-7d78e2a"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 14,
+    "productGroupCount": 3,
+    "preview": "/product-catalog/1-6-adapters-749adf9.webp"
+  },
+  {
+    "id": "node-fiber-optic-pigtails-and-patch-cords-5ae7b95",
+    "name": "Pigtails And Patch Cords",
+    "sourceName": "PIGTAILS AND PATCH CORDS",
+    "path": "FIBER OPTIC/PIGTAILS AND PATCH CORDS",
+    "pathSegments": [
+      "FIBER OPTIC",
+      "PIGTAILS AND PATCH CORDS"
+    ],
+    "breadcrumbs": [
+      "Fiber Optic",
+      "Pigtails And Patch Cords"
+    ],
+    "depth": 2,
+    "parentId": "node-fiber-optic-8149b60",
+    "childIds": [
+      "node-fiber-optic-pigtails-and-patch-cords-indoor-fiber-patch-cords-1126f69",
+      "node-fiber-optic-pigtails-and-patch-cords-pigtails-2255efd"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 19,
+    "productGroupCount": 2,
+    "preview": "/product-catalog/1-6-patch-cords-942fce3.webp"
+  },
+  {
+    "id": "node-fiber-optic-plc-splitters-957c221",
+    "name": "Plc Splitters",
+    "sourceName": "PLC SPLITTERS",
+    "path": "FIBER OPTIC/PLC SPLITTERS",
+    "pathSegments": [
+      "FIBER OPTIC",
+      "PLC SPLITTERS"
+    ],
+    "breadcrumbs": [
+      "Fiber Optic",
+      "Plc Splitters"
+    ],
+    "depth": 2,
+    "parentId": "node-fiber-optic-8149b60",
+    "childIds": [
+      "node-fiber-optic-plc-splitters-19-inch-plc-splitter-ef99334",
+      "node-fiber-optic-plc-splitters-patch-free-panel-with-splitter-82b1b7d"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 5,
+    "productGroupCount": 2,
+    "preview": "/product-catalog/1-3-19-inch-plc-splitter-093ad23.webp"
+  },
+  {
+    "id": "node-outdoor-cabinets-images-080a17a",
+    "name": "Images",
+    "sourceName": "IMAGES",
+    "path": "OUTDOOR CABINETS/IMAGES",
+    "pathSegments": [
+      "OUTDOOR CABINETS",
+      "IMAGES"
+    ],
+    "breadcrumbs": [
+      "Outdoor Cabinets",
+      "Images"
+    ],
+    "depth": 2,
+    "parentId": "node-outdoor-cabinets-4ab4959",
+    "childIds": [],
+    "directProductGroupId": "group-outdoor-cabinets-images-080a17a",
+    "directImageCount": 3,
+    "totalImageCount": 3,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1-3-outdoor-equipment-cabinet-with-cooling-and-monitoring-c17091d.webp"
+  },
+  {
+    "id": "node-power-distribution-units-basic-pdu-a5f921f",
+    "name": "Basic PDU",
+    "sourceName": "BASIC PDU",
+    "path": "POWER DISTRIBUTION UNITS/BASIC PDU",
+    "pathSegments": [
+      "POWER DISTRIBUTION UNITS",
+      "BASIC PDU"
+    ],
+    "breadcrumbs": [
+      "Power Distribution Units",
+      "Basic PDU"
+    ],
+    "depth": 2,
+    "parentId": "node-power-distribution-units-7c3279d",
+    "childIds": [
+      "node-power-distribution-units-basic-pdu-basic-pdu-76eccca",
+      "node-power-distribution-units-basic-pdu-horizontal-power-distribution-unit-3ce1aed"
+    ],
+    "directProductGroupId": "group-power-distribution-units-basic-pdu-a5f921f",
+    "directImageCount": 1,
+    "totalImageCount": 4,
+    "productGroupCount": 3,
+    "preview": "/product-catalog/1-2-basic-vertical-pdu-9d88723.webp"
+  },
+  {
+    "id": "node-power-distribution-units-smart-pdu-0fbf358",
+    "name": "Smart PDU",
+    "sourceName": "SMART PDU",
+    "path": "POWER DISTRIBUTION UNITS/SMART PDU",
+    "pathSegments": [
+      "POWER DISTRIBUTION UNITS",
+      "SMART PDU"
+    ],
+    "breadcrumbs": [
+      "Power Distribution Units",
+      "Smart PDU"
+    ],
+    "depth": 2,
+    "parentId": "node-power-distribution-units-7c3279d",
+    "childIds": [
+      "node-power-distribution-units-smart-pdu-coo-china-f5d801e",
+      "node-power-distribution-units-smart-pdu-coo-turkey-63a1b9a"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 12,
+    "productGroupCount": 2,
+    "preview": "/product-catalog/24-outlets-vertical-1-634366d.webp"
+  },
+  {
+    "id": "node-cabinet-enclosures-fttx-wallmount-cabinet-12u-600x150mm-ed04307",
+    "name": "12U 600X150Mm",
+    "sourceName": "12U 600X150MM",
+    "path": "CABINET & ENCLOSURES/FTTX WALLMOUNT CABINET/12U 600X150MM",
+    "pathSegments": [
+      "CABINET & ENCLOSURES",
+      "FTTX WALLMOUNT CABINET",
+      "12U 600X150MM"
+    ],
+    "breadcrumbs": [
+      "Cabinet & Enclosures",
+      "FTTx Wallmount Cabinet",
+      "12U 600X150Mm"
+    ],
+    "depth": 3,
+    "parentId": "node-cabinet-enclosures-fttx-wallmount-cabinet-7b935f2",
+    "childIds": [],
+    "directProductGroupId": "group-cabinet-enclosures-fttx-wallmount-cabinet-12u-600x150mm-ed04307",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/12u-single-section-wallmount-enclosures-150-mm-for-ftth-452bfb2.webp"
+  },
+  {
+    "id": "node-cabinet-enclosures-fttx-wallmount-cabinet-12u-600x300-fb9302f",
+    "name": "12U 600X300",
+    "sourceName": "12U 600X300",
+    "path": "CABINET & ENCLOSURES/FTTX WALLMOUNT CABINET/12U 600X300",
+    "pathSegments": [
+      "CABINET & ENCLOSURES",
+      "FTTX WALLMOUNT CABINET",
+      "12U 600X300"
+    ],
+    "breadcrumbs": [
+      "Cabinet & Enclosures",
+      "FTTx Wallmount Cabinet",
+      "12U 600X300"
+    ],
+    "depth": 3,
+    "parentId": "node-cabinet-enclosures-fttx-wallmount-cabinet-7b935f2",
+    "childIds": [],
+    "directProductGroupId": "group-cabinet-enclosures-fttx-wallmount-cabinet-12u-600x300-fb9302f",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/12u-single-section-wallmount-enclosures-300-mm-for-ftth-0e77562.webp"
+  },
+  {
+    "id": "node-cabinet-enclosures-wall-mount-cabinet-dual-section-52cba9b",
+    "name": "Dual Section",
+    "sourceName": "DUAL SECTION",
+    "path": "CABINET & ENCLOSURES/WALL MOUNT CABINET/DUAL SECTION",
+    "pathSegments": [
+      "CABINET & ENCLOSURES",
+      "WALL MOUNT CABINET",
+      "DUAL SECTION"
+    ],
+    "breadcrumbs": [
+      "Cabinet & Enclosures",
+      "Wall Mount Cabinet",
+      "Dual Section"
+    ],
+    "depth": 3,
+    "parentId": "node-cabinet-enclosures-wall-mount-cabinet-907c091",
+    "childIds": [],
+    "directProductGroupId": "group-cabinet-enclosures-wall-mount-cabinet-dual-section-52cba9b",
+    "directImageCount": 2,
+    "totalImageCount": 2,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/sqs-wall-mount-cabinets-b96e499.webp"
+  },
+  {
+    "id": "node-cabinet-enclosures-wall-mount-cabinet-single-section-7936c9f",
+    "name": "Single Section",
+    "sourceName": "SINGLE SECTION",
+    "path": "CABINET & ENCLOSURES/WALL MOUNT CABINET/SINGLE SECTION",
+    "pathSegments": [
+      "CABINET & ENCLOSURES",
+      "WALL MOUNT CABINET",
+      "SINGLE SECTION"
+    ],
+    "breadcrumbs": [
+      "Cabinet & Enclosures",
+      "Wall Mount Cabinet",
+      "Single Section"
+    ],
+    "depth": 3,
+    "parentId": "node-cabinet-enclosures-wall-mount-cabinet-907c091",
+    "childIds": [],
+    "directProductGroupId": "group-cabinet-enclosures-wall-mount-cabinet-single-section-7936c9f",
+    "directImageCount": 2,
+    "totalImageCount": 2,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/9u-single-section-wall-mount-cabinet-029302f.webp"
+  },
+  {
+    "id": "node-copper-cables-cat-6-cable-cat-6-utp-23awg-cable-lszh-2cf6e07",
+    "name": "Cat6 UTP 23Awg Cable LSZH",
+    "sourceName": "CAT 6 UTP 23AWG CABLE LSZH",
+    "path": "COPPER CABLES/CAT 6 CABLE/CAT 6 UTP 23AWG CABLE LSZH",
+    "pathSegments": [
+      "COPPER CABLES",
+      "CAT 6 CABLE",
+      "CAT 6 UTP 23AWG CABLE LSZH"
+    ],
+    "breadcrumbs": [
+      "Copper Cables",
+      "Cat6 Cable",
+      "Cat6 UTP 23Awg Cable LSZH"
+    ],
+    "depth": 3,
+    "parentId": "node-copper-cables-cat-6-cable-75a3e30",
+    "childIds": [],
+    "directProductGroupId": "group-copper-cables-cat-6-cable-cat-6-utp-23awg-cable-lszh-2cf6e07",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/cat-6-utp-23awg-cable-lszh-703eb3a.webp"
+  },
+  {
+    "id": "node-copper-cables-cat-6-cable-cat-6-utp-23awg-cable-pvc-f71e03a",
+    "name": "Cat6 UTP 23Awg Cable Pvc",
+    "sourceName": "CAT 6 UTP 23AWG CABLE PVC",
+    "path": "COPPER CABLES/CAT 6 CABLE/CAT 6 UTP 23AWG CABLE PVC",
+    "pathSegments": [
+      "COPPER CABLES",
+      "CAT 6 CABLE",
+      "CAT 6 UTP 23AWG CABLE PVC"
+    ],
+    "breadcrumbs": [
+      "Copper Cables",
+      "Cat6 Cable",
+      "Cat6 UTP 23Awg Cable Pvc"
+    ],
+    "depth": 3,
+    "parentId": "node-copper-cables-cat-6-cable-75a3e30",
+    "childIds": [],
+    "directProductGroupId": "group-copper-cables-cat-6-cable-cat-6-utp-23awg-cable-pvc-f71e03a",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/cat-6-utp-23awg-cable-pvc-81062c3.webp"
+  },
+  {
+    "id": "node-copper-cables-cat-6-cable-cat6-utp-24awg-cable-pvc-a1209fe",
+    "name": "Cat6 UTP 24Awg Cable Pvc",
+    "sourceName": "CAT6 UTP 24AWG CABLE PVC",
+    "path": "COPPER CABLES/CAT 6 CABLE/CAT6 UTP 24AWG CABLE PVC",
+    "pathSegments": [
+      "COPPER CABLES",
+      "CAT 6 CABLE",
+      "CAT6 UTP 24AWG CABLE PVC"
+    ],
+    "breadcrumbs": [
+      "Copper Cables",
+      "Cat6 Cable",
+      "Cat6 UTP 24Awg Cable Pvc"
+    ],
+    "depth": 3,
+    "parentId": "node-copper-cables-cat-6-cable-75a3e30",
+    "childIds": [],
+    "directProductGroupId": "group-copper-cables-cat-6-cable-cat6-utp-24awg-cable-pvc-a1209fe",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/cat6-utp-24awg-cable-pvc-a7a38f9.webp"
+  },
+  {
+    "id": "node-copper-cables-cat-6-cable-outdoor-rated-cat6-utp-23-awg-cable-d262a5e",
+    "name": "Outdoor Rated Cat6 UTP 23 Awg Cable",
+    "sourceName": "OUTDOOR RATED CAT6 UTP 23 AWG CABLE",
+    "path": "COPPER CABLES/CAT 6 CABLE/OUTDOOR RATED CAT6 UTP 23 AWG CABLE",
+    "pathSegments": [
+      "COPPER CABLES",
+      "CAT 6 CABLE",
+      "OUTDOOR RATED CAT6 UTP 23 AWG CABLE"
+    ],
+    "breadcrumbs": [
+      "Copper Cables",
+      "Cat6 Cable",
+      "Outdoor Rated Cat6 UTP 23 Awg Cable"
+    ],
+    "depth": 3,
+    "parentId": "node-copper-cables-cat-6-cable-75a3e30",
+    "childIds": [],
+    "directProductGroupId": "group-copper-cables-cat-6-cable-outdoor-rated-cat6-utp-23-awg-cable-d262a5e",
+    "directImageCount": 2,
+    "totalImageCount": 2,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/cat6-out-door-0160466.webp"
+  },
+  {
+    "id": "node-copper-cables-cat6a-cable-cat-6a-fftp-23-awg-cable-lszh-cfc0f1e",
+    "name": "Cat6A Fftp 23 Awg Cable LSZH",
+    "sourceName": "CAT 6A FFTP 23 AWG CABLE LSZH",
+    "path": "COPPER CABLES/CAT6A CABLE/CAT 6A FFTP 23 AWG CABLE LSZH",
+    "pathSegments": [
+      "COPPER CABLES",
+      "CAT6A CABLE",
+      "CAT 6A FFTP 23 AWG CABLE LSZH"
+    ],
+    "breadcrumbs": [
+      "Copper Cables",
+      "Cat6A Cable",
+      "Cat6A Fftp 23 Awg Cable LSZH"
+    ],
+    "depth": 3,
+    "parentId": "node-copper-cables-cat6a-cable-8800609",
+    "childIds": [],
+    "directProductGroupId": "group-copper-cables-cat6a-cable-cat-6a-fftp-23-awg-cable-lszh-cfc0f1e",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/cat6a-fftp-23awg-cable-lszh-9e75445.webp"
+  },
+  {
+    "id": "node-copper-cables-cat6a-cable-cat-6a-sftp-23-awg-cable-lszh-2a23d26",
+    "name": "Cat6A S/FTP 23 Awg Cable LSZH",
+    "sourceName": "CAT 6A SFTP 23 AWG CABLE LSZH",
+    "path": "COPPER CABLES/CAT6A CABLE/CAT 6A SFTP 23 AWG CABLE LSZH",
+    "pathSegments": [
+      "COPPER CABLES",
+      "CAT6A CABLE",
+      "CAT 6A SFTP 23 AWG CABLE LSZH"
+    ],
+    "breadcrumbs": [
+      "Copper Cables",
+      "Cat6A Cable",
+      "Cat6A S/FTP 23 Awg Cable LSZH"
+    ],
+    "depth": 3,
+    "parentId": "node-copper-cables-cat6a-cable-8800609",
+    "childIds": [],
+    "directProductGroupId": "group-copper-cables-cat6a-cable-cat-6a-sftp-23-awg-cable-lszh-2a23d26",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/cat6a-sftp-23awg-cable-lszh-f190b9d.webp"
+  },
+  {
+    "id": "node-copper-cables-cat6a-cable-cat-6a-sftp-23-awg-outdoor-cable-pe-a94f948",
+    "name": "Cat6A S/FTP 23 Awg Outdoor Cable Pe",
+    "sourceName": "CAT 6A SFTP 23 AWG OUTDOOR CABLE PE",
+    "path": "COPPER CABLES/CAT6A CABLE/CAT 6A SFTP 23 AWG OUTDOOR CABLE PE",
+    "pathSegments": [
+      "COPPER CABLES",
+      "CAT6A CABLE",
+      "CAT 6A SFTP 23 AWG OUTDOOR CABLE PE"
+    ],
+    "breadcrumbs": [
+      "Copper Cables",
+      "Cat6A Cable",
+      "Cat6A S/FTP 23 Awg Outdoor Cable Pe"
+    ],
+    "depth": 3,
+    "parentId": "node-copper-cables-cat6a-cable-8800609",
+    "childIds": [],
+    "directProductGroupId": "group-copper-cables-cat6a-cable-cat-6a-sftp-23-awg-outdoor-cable-pe-a94f948",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/outdoor-rated-cat6a-sftp-23awg-cable-02-2c3cb5e.webp"
+  },
+  {
+    "id": "node-copper-cables-cat6a-cable-cat-6a-uutp-23-awg-cable-lszh-bec15ce",
+    "name": "Cat6A U/UTP 23 Awg Cable LSZH",
+    "sourceName": "CAT 6A UUTP 23 AWG CABLE LSZH",
+    "path": "COPPER CABLES/CAT6A CABLE/CAT 6A UUTP 23 AWG CABLE LSZH",
+    "pathSegments": [
+      "COPPER CABLES",
+      "CAT6A CABLE",
+      "CAT 6A UUTP 23 AWG CABLE LSZH"
+    ],
+    "breadcrumbs": [
+      "Copper Cables",
+      "Cat6A Cable",
+      "Cat6A U/UTP 23 Awg Cable LSZH"
+    ],
+    "depth": 3,
+    "parentId": "node-copper-cables-cat6a-cable-8800609",
+    "childIds": [
+      "node-copper-cables-cat6a-cable-cat-6a-uutp-23-awg-cable-lszh-with-out-alien-444284c"
+    ],
+    "directProductGroupId": "group-copper-cables-cat6a-cable-cat-6a-uutp-23-awg-cable-lszh-bec15ce",
+    "directImageCount": 1,
+    "totalImageCount": 2,
+    "productGroupCount": 2,
+    "preview": "/product-catalog/cat6a-uutp-23awg-cable-lszh-94a501c.webp"
+  },
+  {
+    "id": "node-copper-cables-cat6a-cable-outdoor-rated-cat6a-utp-23-awg-cable-afb4546",
+    "name": "Outdoor Rated Cat6A UTP 23 Awg Cable",
+    "sourceName": "OUTDOOR RATED CAT6A UTP 23 AWG CABLE",
+    "path": "COPPER CABLES/CAT6A CABLE/OUTDOOR RATED CAT6A UTP 23 AWG CABLE",
+    "pathSegments": [
+      "COPPER CABLES",
+      "CAT6A CABLE",
+      "OUTDOOR RATED CAT6A UTP 23 AWG CABLE"
+    ],
+    "breadcrumbs": [
+      "Copper Cables",
+      "Cat6A Cable",
+      "Outdoor Rated Cat6A UTP 23 Awg Cable"
+    ],
+    "depth": 3,
+    "parentId": "node-copper-cables-cat6a-cable-8800609",
+    "childIds": [],
+    "directProductGroupId": "group-copper-cables-cat6a-cable-outdoor-rated-cat6a-utp-23-awg-cable-afb4546",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/cat6a-utp-pe-outdoor-cable-69b8f9c.webp"
+  },
+  {
+    "id": "node-copper-cables-cat8-cable-cat8-sftp-23awg-cable-lszh-fa6c9ca",
+    "name": "Cat8 S/FTP 23Awg Cable LSZH",
+    "sourceName": "CAT8 SFTP 23AWG CABLE LSZH",
+    "path": "COPPER CABLES/CAT8 CABLE/CAT8 SFTP 23AWG CABLE LSZH",
+    "pathSegments": [
+      "COPPER CABLES",
+      "CAT8 CABLE",
+      "CAT8 SFTP 23AWG CABLE LSZH"
+    ],
+    "breadcrumbs": [
+      "Copper Cables",
+      "Cat8 Cable",
+      "Cat8 S/FTP 23Awg Cable LSZH"
+    ],
+    "depth": 3,
+    "parentId": "node-copper-cables-cat8-cable-666cf1e",
+    "childIds": [],
+    "directProductGroupId": "group-copper-cables-cat8-cable-cat8-sftp-23awg-cable-lszh-fa6c9ca",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/cat8-sftp-23awg-cable-lszh-8746605.webp"
+  },
+  {
+    "id": "node-copper-connectivity-copper-patch-cord-stp-0cb2063",
+    "name": "Stp",
+    "sourceName": "STP",
+    "path": "COPPER CONNECTIVITY/COPPER PATCH CORD/STP",
+    "pathSegments": [
+      "COPPER CONNECTIVITY",
+      "COPPER PATCH CORD",
+      "STP"
+    ],
+    "breadcrumbs": [
+      "Copper Connectivity",
+      "Copper Patch Cord",
+      "Stp"
+    ],
+    "depth": 3,
+    "parentId": "node-copper-connectivity-copper-patch-cord-be69a9a",
+    "childIds": [
+      "node-copper-connectivity-copper-patch-cord-stp-cat-6a-sftp-slim-patchcords--92cbf0f",
+      "node-copper-connectivity-copper-patch-cord-stp-cat-6a-shielded-ultra-slim-2-e841b80"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 2,
+    "productGroupCount": 2,
+    "preview": "/product-catalog/cat-6a-sftp-slim-patchcords-26awg-a997f8e.webp"
+  },
+  {
+    "id": "node-copper-connectivity-copper-patch-cord-utp-14ace5b",
+    "name": "UTP",
+    "sourceName": "UTP",
+    "path": "COPPER CONNECTIVITY/COPPER PATCH CORD/UTP",
+    "pathSegments": [
+      "COPPER CONNECTIVITY",
+      "COPPER PATCH CORD",
+      "UTP"
+    ],
+    "breadcrumbs": [
+      "Copper Connectivity",
+      "Copper Patch Cord",
+      "UTP"
+    ],
+    "depth": 3,
+    "parentId": "node-copper-connectivity-copper-patch-cord-be69a9a",
+    "childIds": [
+      "node-copper-connectivity-copper-patch-cord-utp-cat-6-24-awg-stranded-uutp-p-f6613b6",
+      "node-copper-connectivity-copper-patch-cord-utp-cat-6-utp-ultra-slim-28awg-p-2b8a5e1",
+      "node-copper-connectivity-copper-patch-cord-utp-cat-6a-24-awg-stranded-uutp--a71995e",
+      "node-copper-connectivity-copper-patch-cord-utp-cat-6a-utp-ultra-slim-28awg--7503ff6"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 12,
+    "productGroupCount": 4,
+    "preview": "/product-catalog/cat-6-24-awg-stranded-uutp-patch-cord-lszh-b0ac4c7.webp"
+  },
+  {
+    "id": "node-copper-connectivity-face-plates-and-adapters-faceplates-e84318d",
+    "name": "Faceplates",
+    "sourceName": "FACEPLATES",
+    "path": "COPPER CONNECTIVITY/FACE PLATES AND ADAPTERS/FACEPLATES",
+    "pathSegments": [
+      "COPPER CONNECTIVITY",
+      "FACE PLATES AND ADAPTERS",
+      "FACEPLATES"
+    ],
+    "breadcrumbs": [
+      "Copper Connectivity",
+      "Face Plates And Adapters",
+      "Faceplates"
+    ],
+    "depth": 3,
+    "parentId": "node-copper-connectivity-face-plates-and-adapters-4354573",
+    "childIds": [],
+    "directProductGroupId": "group-copper-connectivity-face-plates-and-adapters-faceplates-e84318d",
+    "directImageCount": 2,
+    "totalImageCount": 2,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1-3-faceplates-adapters-2b8fd39.webp"
+  },
+  {
+    "id": "node-copper-connectivity-face-plates-and-adapters-lj6c-angled-and-shuttered-d18bc13",
+    "name": "Lj6C Angled And Shuttered Adaptor",
+    "sourceName": "LJ6C ANGLED AND SHUTTERED ADAPTOR",
+    "path": "COPPER CONNECTIVITY/FACE PLATES AND ADAPTERS/LJ6C ANGLED AND SHUTTERED ADAPTOR",
+    "pathSegments": [
+      "COPPER CONNECTIVITY",
+      "FACE PLATES AND ADAPTERS",
+      "LJ6C ANGLED AND SHUTTERED ADAPTOR"
+    ],
+    "breadcrumbs": [
+      "Copper Connectivity",
+      "Face Plates And Adapters",
+      "Lj6C Angled And Shuttered Adaptor"
+    ],
+    "depth": 3,
+    "parentId": "node-copper-connectivity-face-plates-and-adapters-4354573",
+    "childIds": [],
+    "directProductGroupId": "group-copper-connectivity-face-plates-and-adapters-lj6c-angled-and-shuttered-d18bc13",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/lj6c-angled-and-shuttered-adapter-ab366ab.webp"
+  },
+  {
+    "id": "node-copper-connectivity-face-plates-and-adapters-surface-mount-box-3862acd",
+    "name": "Surface Mount Box",
+    "sourceName": "SURFACE MOUNT BOX",
+    "path": "COPPER CONNECTIVITY/FACE PLATES AND ADAPTERS/SURFACE MOUNT BOX",
+    "pathSegments": [
+      "COPPER CONNECTIVITY",
+      "FACE PLATES AND ADAPTERS",
+      "SURFACE MOUNT BOX"
+    ],
+    "breadcrumbs": [
+      "Copper Connectivity",
+      "Face Plates And Adapters",
+      "Surface Mount Box"
+    ],
+    "depth": 3,
+    "parentId": "node-copper-connectivity-face-plates-and-adapters-4354573",
+    "childIds": [],
+    "directProductGroupId": "group-copper-connectivity-face-plates-and-adapters-surface-mount-box-3862acd",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/surface-mount-box-bd211a1.webp"
+  },
+  {
+    "id": "node-copper-connectivity-keystone-jacks-and-plug-cat-6-utp-keystone-jack-9a9bd78",
+    "name": "Cat6 UTP Keystone Jack",
+    "sourceName": "CAT 6 UTP KEYSTONE JACK",
+    "path": "COPPER CONNECTIVITY/KEYSTONE JACKS AND PLUG/CAT 6 UTP KEYSTONE JACK",
+    "pathSegments": [
+      "COPPER CONNECTIVITY",
+      "KEYSTONE JACKS AND PLUG",
+      "CAT 6 UTP KEYSTONE JACK"
+    ],
+    "breadcrumbs": [
+      "Copper Connectivity",
+      "Keystone Jacks And Plug",
+      "Cat6 UTP Keystone Jack"
+    ],
+    "depth": 3,
+    "parentId": "node-copper-connectivity-keystone-jacks-and-plug-0e0b386",
+    "childIds": [
+      "node-copper-connectivity-keystone-jacks-and-plug-cat-6-utp-keystone-jack-ca-9a132e6",
+      "node-copper-connectivity-keystone-jacks-and-plug-cat-6-utp-keystone-jack-ca-22c5af4"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 2,
+    "productGroupCount": 2,
+    "preview": "/product-catalog/180-degree-keystone-jack-cat6-6aa9458.webp"
+  },
+  {
+    "id": "node-copper-connectivity-keystone-jacks-and-plug-cat-6a-shielded-tool-less--9b751f0",
+    "name": "Cat6A Shielded Tool Less Keystone Jack",
+    "sourceName": "CAT 6A SHIELDED TOOL LESS KEYSTONE JACK",
+    "path": "COPPER CONNECTIVITY/KEYSTONE JACKS AND PLUG/CAT 6A SHIELDED TOOL LESS KEYSTONE JACK",
+    "pathSegments": [
+      "COPPER CONNECTIVITY",
+      "KEYSTONE JACKS AND PLUG",
+      "CAT 6A SHIELDED TOOL LESS KEYSTONE JACK"
+    ],
+    "breadcrumbs": [
+      "Copper Connectivity",
+      "Keystone Jacks And Plug",
+      "Cat6A Shielded Tool Less Keystone Jack"
+    ],
+    "depth": 3,
+    "parentId": "node-copper-connectivity-keystone-jacks-and-plug-0e0b386",
+    "childIds": [],
+    "directProductGroupId": "group-copper-connectivity-keystone-jacks-and-plug-cat-6a-shielded-tool-less--9b751f0",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/cat-6a-shielded-tool-less-keystone-jack-9545463.webp"
+  },
+  {
+    "id": "node-copper-connectivity-keystone-jacks-and-plug-cat-6a-uutp-keystone-jack-922ee6b",
+    "name": "Cat6A U/UTP Keystone Jack",
+    "sourceName": "CAT 6A UUTP KEYSTONE JACK",
+    "path": "COPPER CONNECTIVITY/KEYSTONE JACKS AND PLUG/CAT 6A UUTP KEYSTONE JACK",
+    "pathSegments": [
+      "COPPER CONNECTIVITY",
+      "KEYSTONE JACKS AND PLUG",
+      "CAT 6A UUTP KEYSTONE JACK"
+    ],
+    "breadcrumbs": [
+      "Copper Connectivity",
+      "Keystone Jacks And Plug",
+      "Cat6A U/UTP Keystone Jack"
+    ],
+    "depth": 3,
+    "parentId": "node-copper-connectivity-keystone-jacks-and-plug-0e0b386",
+    "childIds": [
+      "node-copper-connectivity-keystone-jacks-and-plug-cat-6a-uutp-keystone-jack--45e30f1",
+      "node-copper-connectivity-keystone-jacks-and-plug-cat-6a-uutp-keystone-jack--3956644"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 2,
+    "productGroupCount": 2,
+    "preview": "/product-catalog/180-degree-keystone-jack-cat6a-74c680b.webp"
+  },
+  {
+    "id": "node-copper-connectivity-keystone-jacks-and-plug-cat-8-keystone-jcks-91d2e05",
+    "name": "Cat8 Keystone Jcks",
+    "sourceName": "CAT 8 KEYSTONE JCKS",
+    "path": "COPPER CONNECTIVITY/KEYSTONE JACKS AND PLUG/CAT 8 KEYSTONE JCKS",
+    "pathSegments": [
+      "COPPER CONNECTIVITY",
+      "KEYSTONE JACKS AND PLUG",
+      "CAT 8 KEYSTONE JCKS"
+    ],
+    "breadcrumbs": [
+      "Copper Connectivity",
+      "Keystone Jacks And Plug",
+      "Cat8 Keystone Jcks"
+    ],
+    "depth": 3,
+    "parentId": "node-copper-connectivity-keystone-jacks-and-plug-0e0b386",
+    "childIds": [],
+    "directProductGroupId": "group-copper-connectivity-keystone-jacks-and-plug-cat-8-keystone-jcks-91d2e05",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/cat8-shielded-keystone-jacks-22c3ce9.webp"
+  },
+  {
+    "id": "node-copper-connectivity-keystone-jacks-and-plug-plug-e59e481",
+    "name": "Plug",
+    "sourceName": "PLUG",
+    "path": "COPPER CONNECTIVITY/KEYSTONE JACKS AND PLUG/PLUG",
+    "pathSegments": [
+      "COPPER CONNECTIVITY",
+      "KEYSTONE JACKS AND PLUG",
+      "PLUG"
+    ],
+    "breadcrumbs": [
+      "Copper Connectivity",
+      "Keystone Jacks And Plug",
+      "Plug"
+    ],
+    "depth": 3,
+    "parentId": "node-copper-connectivity-keystone-jacks-and-plug-0e0b386",
+    "childIds": [],
+    "directProductGroupId": "group-copper-connectivity-keystone-jacks-and-plug-plug-e59e481",
+    "directImageCount": 2,
+    "totalImageCount": 2,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/mptl-angled-connector-1061521.webp"
+  },
+  {
+    "id": "node-copper-connectivity-patch-panel-shielded-0952680",
+    "name": "Shielded",
+    "sourceName": "SHIELDED",
+    "path": "COPPER CONNECTIVITY/PATCH PANEL/SHIELDED",
+    "pathSegments": [
+      "COPPER CONNECTIVITY",
+      "PATCH PANEL",
+      "SHIELDED"
+    ],
+    "breadcrumbs": [
+      "Copper Connectivity",
+      "Patch Panel",
+      "Shielded"
+    ],
+    "depth": 3,
+    "parentId": "node-copper-connectivity-patch-panel-642e7f4",
+    "childIds": [],
+    "directProductGroupId": "group-copper-connectivity-patch-panel-shielded-0952680",
+    "directImageCount": 2,
+    "totalImageCount": 2,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1-1-modular-sheilded-patch-panel-e5bb36a.webp"
+  },
+  {
+    "id": "node-copper-connectivity-patch-panel-un-shielded-5e45e38",
+    "name": "Un Shielded",
+    "sourceName": "UN SHIELDED",
+    "path": "COPPER CONNECTIVITY/PATCH PANEL/UN SHIELDED",
+    "pathSegments": [
+      "COPPER CONNECTIVITY",
+      "PATCH PANEL",
+      "UN SHIELDED"
+    ],
+    "breadcrumbs": [
+      "Copper Connectivity",
+      "Patch Panel",
+      "Un Shielded"
+    ],
+    "depth": 3,
+    "parentId": "node-copper-connectivity-patch-panel-642e7f4",
+    "childIds": [],
+    "directProductGroupId": "group-copper-connectivity-patch-panel-un-shielded-5e45e38",
+    "directImageCount": 2,
+    "totalImageCount": 2,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1-2-modular-utp-patch-panel-8657a7f.webp"
+  },
+  {
+    "id": "node-fiber-optic-fiber-cables-indoor-f787105",
+    "name": "Indoor",
+    "sourceName": "INDOOR",
+    "path": "FIBER OPTIC/FIBER CABLES/INDOOR",
+    "pathSegments": [
+      "FIBER OPTIC",
+      "FIBER CABLES",
+      "INDOOR"
+    ],
+    "breadcrumbs": [
+      "Fiber Optic",
+      "Fiber Cables",
+      "Indoor"
+    ],
+    "depth": 3,
+    "parentId": "node-fiber-optic-fiber-cables-6b9cf13",
+    "childIds": [
+      "node-fiber-optic-fiber-cables-indoor-ftth-drop-cable-e867cdf",
+      "node-fiber-optic-fiber-cables-indoor-micro-module-riser-cablle-a1c687d",
+      "node-fiber-optic-fiber-cables-indoor-tight-buffered-cable-0cdf393"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 6,
+    "productGroupCount": 3,
+    "preview": "/product-catalog/1-2-ftth-drop-cable-269bd3a.webp"
+  },
+  {
+    "id": "node-fiber-optic-fiber-cables-indoor-outdoor-cc01a79",
+    "name": "Indoor Outdoor",
+    "sourceName": "INDOOR OUTDOOR",
+    "path": "FIBER OPTIC/FIBER CABLES/INDOOR OUTDOOR",
+    "pathSegments": [
+      "FIBER OPTIC",
+      "FIBER CABLES",
+      "INDOOR OUTDOOR"
+    ],
+    "breadcrumbs": [
+      "Fiber Optic",
+      "Fiber Cables",
+      "Indoor Outdoor"
+    ],
+    "depth": 3,
+    "parentId": "node-fiber-optic-fiber-cables-6b9cf13",
+    "childIds": [],
+    "directProductGroupId": "group-fiber-optic-fiber-cables-indoor-outdoor-cc01a79",
+    "directImageCount": 3,
+    "totalImageCount": 3,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1-3indoor-outdoor-4e536df.webp"
+  },
+  {
+    "id": "node-fiber-optic-fiber-cables-out-door-e54583b",
+    "name": "Out Door",
+    "sourceName": "OUT DOOR",
+    "path": "FIBER OPTIC/FIBER CABLES/OUT DOOR",
+    "pathSegments": [
+      "FIBER OPTIC",
+      "FIBER CABLES",
+      "OUT DOOR"
+    ],
+    "breadcrumbs": [
+      "Fiber Optic",
+      "Fiber Cables",
+      "Out Door"
+    ],
+    "depth": 3,
+    "parentId": "node-fiber-optic-fiber-cables-6b9cf13",
+    "childIds": [
+      "node-fiber-optic-fiber-cables-out-door-loose-tube-non-metallic-7051667"
+    ],
+    "directProductGroupId": "group-fiber-optic-fiber-cables-out-door-e54583b",
+    "directImageCount": 2,
+    "totalImageCount": 4,
+    "productGroupCount": 2,
+    "preview": "/product-catalog/1-2loose-tube-steel-tape-armored-b499a98.webp"
+  },
+  {
+    "id": "node-fiber-optic-fiber-management-enclosures-dome-enclosures-df72a8f",
+    "name": "Dome Enclosures",
+    "sourceName": "DOME ENCLOSURES",
+    "path": "FIBER OPTIC/FIBER MANAGEMENT ENCLOSURES/DOME ENCLOSURES",
+    "pathSegments": [
+      "FIBER OPTIC",
+      "FIBER MANAGEMENT ENCLOSURES",
+      "DOME ENCLOSURES"
+    ],
+    "breadcrumbs": [
+      "Fiber Optic",
+      "Fiber Management Enclosures",
+      "Dome Enclosures"
+    ],
+    "depth": 3,
+    "parentId": "node-fiber-optic-fiber-management-enclosures-6db0adc",
+    "childIds": [],
+    "directProductGroupId": "group-fiber-optic-fiber-management-enclosures-dome-enclosures-df72a8f",
+    "directImageCount": 2,
+    "totalImageCount": 2,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1-2-dome-enclosures-92f0523.webp"
+  },
+  {
+    "id": "node-fiber-optic-fiber-management-enclosures-fiber-termination-boxes-6f1a9dd",
+    "name": "Fiber Termination Boxes",
+    "sourceName": "FIBER TERMINATION BOXES",
+    "path": "FIBER OPTIC/FIBER MANAGEMENT ENCLOSURES/FIBER TERMINATION BOXES",
+    "pathSegments": [
+      "FIBER OPTIC",
+      "FIBER MANAGEMENT ENCLOSURES",
+      "FIBER TERMINATION BOXES"
+    ],
+    "breadcrumbs": [
+      "Fiber Optic",
+      "Fiber Management Enclosures",
+      "Fiber Termination Boxes"
+    ],
+    "depth": 3,
+    "parentId": "node-fiber-optic-fiber-management-enclosures-6db0adc",
+    "childIds": [
+      "node-fiber-optic-fiber-management-enclosures-fiber-termination-boxes-indoor-a196169",
+      "node-fiber-optic-fiber-management-enclosures-fiber-termination-boxes-outdoo-04c94f3"
+    ],
+    "directProductGroupId": null,
+    "directImageCount": 0,
+    "totalImageCount": 6,
+    "productGroupCount": 2,
+    "preview": "/product-catalog/1-2-micro-odf-2546ac9.webp"
+  },
+  {
+    "id": "node-fiber-optic-fiber-management-enclosures-inline-enclosures-1511d60",
+    "name": "Inline Enclosures",
+    "sourceName": "INLINE ENCLOSURES",
+    "path": "FIBER OPTIC/FIBER MANAGEMENT ENCLOSURES/INLINE ENCLOSURES",
+    "pathSegments": [
+      "FIBER OPTIC",
+      "FIBER MANAGEMENT ENCLOSURES",
+      "INLINE ENCLOSURES"
+    ],
+    "breadcrumbs": [
+      "Fiber Optic",
+      "Fiber Management Enclosures",
+      "Inline Enclosures"
+    ],
+    "depth": 3,
+    "parentId": "node-fiber-optic-fiber-management-enclosures-6db0adc",
+    "childIds": [],
+    "directProductGroupId": "group-fiber-optic-fiber-management-enclosures-inline-enclosures-1511d60",
+    "directImageCount": 3,
+    "totalImageCount": 3,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1-3-inline-enclosures-1ecc342.webp"
+  },
+  {
+    "id": "node-fiber-optic-fiber-panel-and-adapters-adapters-dee94d2",
+    "name": "Adapters",
+    "sourceName": "ADAPTERS",
+    "path": "FIBER OPTIC/FIBER PANEL AND ADAPTERS/ADAPTERS",
+    "pathSegments": [
+      "FIBER OPTIC",
+      "FIBER PANEL AND ADAPTERS",
+      "ADAPTERS"
+    ],
+    "breadcrumbs": [
+      "Fiber Optic",
+      "Fiber Panel And Adapters",
+      "Adapters"
+    ],
+    "depth": 3,
+    "parentId": "node-fiber-optic-fiber-panel-and-adapters-c8a953f",
+    "childIds": [],
+    "directProductGroupId": "group-fiber-optic-fiber-panel-and-adapters-adapters-dee94d2",
+    "directImageCount": 10,
+    "totalImageCount": 10,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1-6-adapters-749adf9.webp"
+  },
+  {
+    "id": "node-fiber-optic-fiber-panel-and-adapters-fiber-patch-panel-rack-mount-6868422",
+    "name": "Fiber Patch Panel Rack Mount",
+    "sourceName": "FIBER PATCH PANEL RACK MOUNT",
+    "path": "FIBER OPTIC/FIBER PANEL AND ADAPTERS/FIBER PATCH PANEL RACK MOUNT",
+    "pathSegments": [
+      "FIBER OPTIC",
+      "FIBER PANEL AND ADAPTERS",
+      "FIBER PATCH PANEL RACK MOUNT"
+    ],
+    "breadcrumbs": [
+      "Fiber Optic",
+      "Fiber Panel And Adapters",
+      "Fiber Patch Panel Rack Mount"
+    ],
+    "depth": 3,
+    "parentId": "node-fiber-optic-fiber-panel-and-adapters-c8a953f",
+    "childIds": [],
+    "directProductGroupId": "group-fiber-optic-fiber-panel-and-adapters-fiber-patch-panel-rack-mount-6868422",
+    "directImageCount": 2,
+    "totalImageCount": 2,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1-2-fiber-patch-panel-rack-mount-67e0106.webp"
+  },
+  {
+    "id": "node-fiber-optic-fiber-panel-and-adapters-mini-odf-7d78e2a",
+    "name": "Mini ODF",
+    "sourceName": "MINI ODF",
+    "path": "FIBER OPTIC/FIBER PANEL AND ADAPTERS/MINI ODF",
+    "pathSegments": [
+      "FIBER OPTIC",
+      "FIBER PANEL AND ADAPTERS",
+      "MINI ODF"
+    ],
+    "breadcrumbs": [
+      "Fiber Optic",
+      "Fiber Panel And Adapters",
+      "Mini ODF"
+    ],
+    "depth": 3,
+    "parentId": "node-fiber-optic-fiber-panel-and-adapters-c8a953f",
+    "childIds": [],
+    "directProductGroupId": "group-fiber-optic-fiber-panel-and-adapters-mini-odf-7d78e2a",
+    "directImageCount": 2,
+    "totalImageCount": 2,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1-2-mini-odf-8464ea4.webp"
+  },
+  {
+    "id": "node-fiber-optic-pigtails-and-patch-cords-indoor-fiber-patch-cords-1126f69",
+    "name": "Indoor Fiber Patch Cords",
+    "sourceName": "INDOOR FIBER PATCH CORDS",
+    "path": "FIBER OPTIC/PIGTAILS AND PATCH CORDS/INDOOR FIBER PATCH CORDS",
+    "pathSegments": [
+      "FIBER OPTIC",
+      "PIGTAILS AND PATCH CORDS",
+      "INDOOR FIBER PATCH CORDS"
+    ],
+    "breadcrumbs": [
+      "Fiber Optic",
+      "Pigtails And Patch Cords",
+      "Indoor Fiber Patch Cords"
+    ],
+    "depth": 3,
+    "parentId": "node-fiber-optic-pigtails-and-patch-cords-5ae7b95",
+    "childIds": [],
+    "directProductGroupId": "group-fiber-optic-pigtails-and-patch-cords-indoor-fiber-patch-cords-1126f69",
+    "directImageCount": 10,
+    "totalImageCount": 10,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1-6-patch-cords-942fce3.webp"
+  },
+  {
+    "id": "node-fiber-optic-pigtails-and-patch-cords-pigtails-2255efd",
+    "name": "Pigtails",
+    "sourceName": "PIGTAILS",
+    "path": "FIBER OPTIC/PIGTAILS AND PATCH CORDS/PIGTAILS",
+    "pathSegments": [
+      "FIBER OPTIC",
+      "PIGTAILS AND PATCH CORDS",
+      "PIGTAILS"
+    ],
+    "breadcrumbs": [
+      "Fiber Optic",
+      "Pigtails And Patch Cords",
+      "Pigtails"
+    ],
+    "depth": 3,
+    "parentId": "node-fiber-optic-pigtails-and-patch-cords-5ae7b95",
+    "childIds": [],
+    "directProductGroupId": "group-fiber-optic-pigtails-and-patch-cords-pigtails-2255efd",
+    "directImageCount": 9,
+    "totalImageCount": 9,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1-5-pigtail-82cb1dd.webp"
+  },
+  {
+    "id": "node-fiber-optic-plc-splitters-19-inch-plc-splitter-ef99334",
+    "name": "19 Inch Plc Splitter",
+    "sourceName": "19 INCH PLC SPLITTER",
+    "path": "FIBER OPTIC/PLC SPLITTERS/19 INCH PLC SPLITTER",
+    "pathSegments": [
+      "FIBER OPTIC",
+      "PLC SPLITTERS",
+      "19 INCH PLC SPLITTER"
+    ],
+    "breadcrumbs": [
+      "Fiber Optic",
+      "Plc Splitters",
+      "19 Inch Plc Splitter"
+    ],
+    "depth": 3,
+    "parentId": "node-fiber-optic-plc-splitters-957c221",
+    "childIds": [],
+    "directProductGroupId": "group-fiber-optic-plc-splitters-19-inch-plc-splitter-ef99334",
+    "directImageCount": 3,
+    "totalImageCount": 3,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1-3-19-inch-plc-splitter-093ad23.webp"
+  },
+  {
+    "id": "node-fiber-optic-plc-splitters-patch-free-panel-with-splitter-82b1b7d",
+    "name": "Patch Free Panel With Splitter",
+    "sourceName": "PATCH FREE PANEL WITH SPLITTER",
+    "path": "FIBER OPTIC/PLC SPLITTERS/PATCH FREE PANEL WITH SPLITTER",
+    "pathSegments": [
+      "FIBER OPTIC",
+      "PLC SPLITTERS",
+      "PATCH FREE PANEL WITH SPLITTER"
+    ],
+    "breadcrumbs": [
+      "Fiber Optic",
+      "Plc Splitters",
+      "Patch Free Panel With Splitter"
+    ],
+    "depth": 3,
+    "parentId": "node-fiber-optic-plc-splitters-957c221",
+    "childIds": [],
+    "directProductGroupId": "group-fiber-optic-plc-splitters-patch-free-panel-with-splitter-82b1b7d",
+    "directImageCount": 2,
+    "totalImageCount": 2,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1-2-patch-free-panel-with-splitter-595dd33.webp"
+  },
+  {
+    "id": "node-power-distribution-units-basic-pdu-basic-pdu-76eccca",
+    "name": "Basic PDU",
+    "sourceName": "BASIC PDU",
+    "path": "POWER DISTRIBUTION UNITS/BASIC PDU/BASIC PDU",
+    "pathSegments": [
+      "POWER DISTRIBUTION UNITS",
+      "BASIC PDU",
+      "BASIC PDU"
+    ],
+    "breadcrumbs": [
+      "Power Distribution Units",
+      "Basic PDU",
+      "Basic PDU"
+    ],
+    "depth": 3,
+    "parentId": "node-power-distribution-units-basic-pdu-a5f921f",
+    "childIds": [],
+    "directProductGroupId": "group-power-distribution-units-basic-pdu-basic-pdu-76eccca",
+    "directImageCount": 2,
+    "totalImageCount": 2,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1-2-basic-vertical-pdu-9d88723.webp"
+  },
+  {
+    "id": "node-power-distribution-units-basic-pdu-horizontal-power-distribution-unit-3ce1aed",
+    "name": "Horizontal Power Distribution Unit",
+    "sourceName": "HORIZONTAL POWER DISTRIBUTION UNIT",
+    "path": "POWER DISTRIBUTION UNITS/BASIC PDU/HORIZONTAL POWER DISTRIBUTION UNIT",
+    "pathSegments": [
+      "POWER DISTRIBUTION UNITS",
+      "BASIC PDU",
+      "HORIZONTAL POWER DISTRIBUTION UNIT"
+    ],
+    "breadcrumbs": [
+      "Power Distribution Units",
+      "Basic PDU",
+      "Horizontal Power Distribution Unit"
+    ],
+    "depth": 3,
+    "parentId": "node-power-distribution-units-basic-pdu-a5f921f",
+    "childIds": [],
+    "directProductGroupId": "group-power-distribution-units-basic-pdu-horizontal-power-distribution-unit-3ce1aed",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/basic-horizontal-pdu-eee292c.webp"
+  },
+  {
+    "id": "node-power-distribution-units-smart-pdu-coo-china-f5d801e",
+    "name": "Coo China",
+    "sourceName": "COO-CHINA",
+    "path": "POWER DISTRIBUTION UNITS/SMART PDU/COO-CHINA",
+    "pathSegments": [
+      "POWER DISTRIBUTION UNITS",
+      "SMART PDU",
+      "COO-CHINA"
+    ],
+    "breadcrumbs": [
+      "Power Distribution Units",
+      "Smart PDU",
+      "Coo China"
+    ],
+    "depth": 3,
+    "parentId": "node-power-distribution-units-smart-pdu-0fbf358",
+    "childIds": [],
+    "directProductGroupId": "group-power-distribution-units-smart-pdu-coo-china-f5d801e",
+    "directImageCount": 3,
+    "totalImageCount": 3,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/24-outlets-vertical-1-634366d.webp"
+  },
+  {
+    "id": "node-power-distribution-units-smart-pdu-coo-turkey-63a1b9a",
+    "name": "Coo Turkey",
+    "sourceName": "COO-TURKEY",
+    "path": "POWER DISTRIBUTION UNITS/SMART PDU/COO-TURKEY",
+    "pathSegments": [
+      "POWER DISTRIBUTION UNITS",
+      "SMART PDU",
+      "COO-TURKEY"
+    ],
+    "breadcrumbs": [
+      "Power Distribution Units",
+      "Smart PDU",
+      "Coo Turkey"
+    ],
+    "depth": 3,
+    "parentId": "node-power-distribution-units-smart-pdu-0fbf358",
+    "childIds": [],
+    "directProductGroupId": "group-power-distribution-units-smart-pdu-coo-turkey-63a1b9a",
+    "directImageCount": 9,
+    "totalImageCount": 9,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/breaker-sides-8965c5f.webp"
+  },
+  {
+    "id": "node-copper-cables-cat6a-cable-cat-6a-uutp-23-awg-cable-lszh-with-out-alien-444284c",
+    "name": "With Out Alien Cross Talk",
+    "sourceName": "WITH OUT ALIEN CROSS TALK",
+    "path": "COPPER CABLES/CAT6A CABLE/CAT 6A UUTP 23 AWG CABLE LSZH/WITH OUT ALIEN CROSS TALK",
+    "pathSegments": [
+      "COPPER CABLES",
+      "CAT6A CABLE",
+      "CAT 6A UUTP 23 AWG CABLE LSZH",
+      "WITH OUT ALIEN CROSS TALK"
+    ],
+    "breadcrumbs": [
+      "Copper Cables",
+      "Cat6A Cable",
+      "Cat6A U/UTP 23 Awg Cable LSZH",
+      "With Out Alien Cross Talk"
+    ],
+    "depth": 4,
+    "parentId": "node-copper-cables-cat6a-cable-cat-6a-uutp-23-awg-cable-lszh-bec15ce",
+    "childIds": [],
+    "directProductGroupId": "group-copper-cables-cat6a-cable-cat-6a-uutp-23-awg-cable-lszh-with-out-alien-444284c",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/with-out-alien-cross-talk-a4fec5c.webp"
+  },
+  {
+    "id": "node-copper-connectivity-copper-patch-cord-stp-cat-6a-sftp-slim-patchcords--92cbf0f",
+    "name": "Cat6A S/FTP Slim Patchcords, 26Awg",
+    "sourceName": "CAT 6A SFTP SLIM PATCHCORDS, 26AWG",
+    "path": "COPPER CONNECTIVITY/COPPER PATCH CORD/STP/CAT 6A SFTP SLIM PATCHCORDS, 26AWG",
+    "pathSegments": [
+      "COPPER CONNECTIVITY",
+      "COPPER PATCH CORD",
+      "STP",
+      "CAT 6A SFTP SLIM PATCHCORDS, 26AWG"
+    ],
+    "breadcrumbs": [
+      "Copper Connectivity",
+      "Copper Patch Cord",
+      "Stp",
+      "Cat6A S/FTP Slim Patchcords, 26Awg"
+    ],
+    "depth": 4,
+    "parentId": "node-copper-connectivity-copper-patch-cord-stp-0cb2063",
+    "childIds": [],
+    "directProductGroupId": "group-copper-connectivity-copper-patch-cord-stp-cat-6a-sftp-slim-patchcords--92cbf0f",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/cat-6a-sftp-slim-patchcords-26awg-a997f8e.webp"
+  },
+  {
+    "id": "node-copper-connectivity-copper-patch-cord-stp-cat-6a-shielded-ultra-slim-2-e841b80",
+    "name": "Cat6A Shielded Ultra Slim 28 Awg Patchcords",
+    "sourceName": "CAT 6A SHIELDED ULTRA SLIM 28 AWG PATCHCORDS",
+    "path": "COPPER CONNECTIVITY/COPPER PATCH CORD/STP/CAT 6A SHIELDED ULTRA SLIM 28 AWG PATCHCORDS",
+    "pathSegments": [
+      "COPPER CONNECTIVITY",
+      "COPPER PATCH CORD",
+      "STP",
+      "CAT 6A SHIELDED ULTRA SLIM 28 AWG PATCHCORDS"
+    ],
+    "breadcrumbs": [
+      "Copper Connectivity",
+      "Copper Patch Cord",
+      "Stp",
+      "Cat6A Shielded Ultra Slim 28 Awg Patchcords"
+    ],
+    "depth": 4,
+    "parentId": "node-copper-connectivity-copper-patch-cord-stp-0cb2063",
+    "childIds": [],
+    "directProductGroupId": "group-copper-connectivity-copper-patch-cord-stp-cat-6a-shielded-ultra-slim-2-e841b80",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/cat-6a-shielded-ultra-slim-28-awg-patchcords-b4f1a8f.webp"
+  },
+  {
+    "id": "node-copper-connectivity-copper-patch-cord-utp-cat-6-24-awg-stranded-uutp-p-f6613b6",
+    "name": "Cat6 24 Awg Stranded U/UTP Patch Cord – LSZH",
+    "sourceName": "CAT 6 24 AWG STRANDED UUTP PATCH CORD – LSZH",
+    "path": "COPPER CONNECTIVITY/COPPER PATCH CORD/UTP/CAT 6 24 AWG STRANDED UUTP PATCH CORD – LSZH",
+    "pathSegments": [
+      "COPPER CONNECTIVITY",
+      "COPPER PATCH CORD",
+      "UTP",
+      "CAT 6 24 AWG STRANDED UUTP PATCH CORD – LSZH"
+    ],
+    "breadcrumbs": [
+      "Copper Connectivity",
+      "Copper Patch Cord",
+      "UTP",
+      "Cat6 24 Awg Stranded U/UTP Patch Cord – LSZH"
+    ],
+    "depth": 4,
+    "parentId": "node-copper-connectivity-copper-patch-cord-utp-14ace5b",
+    "childIds": [],
+    "directProductGroupId": "group-copper-connectivity-copper-patch-cord-utp-cat-6-24-awg-stranded-uutp-p-f6613b6",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/cat-6-24-awg-stranded-uutp-patch-cord-lszh-b0ac4c7.webp"
+  },
+  {
+    "id": "node-copper-connectivity-copper-patch-cord-utp-cat-6-utp-ultra-slim-28awg-p-2b8a5e1",
+    "name": "Cat6 UTP Ultra Slim 28Awg Patchcords",
+    "sourceName": "CAT 6 UTP ULTRA SLIM 28AWG PATCHCORDS",
+    "path": "COPPER CONNECTIVITY/COPPER PATCH CORD/UTP/CAT 6 UTP ULTRA SLIM 28AWG PATCHCORDS",
+    "pathSegments": [
+      "COPPER CONNECTIVITY",
+      "COPPER PATCH CORD",
+      "UTP",
+      "CAT 6 UTP ULTRA SLIM 28AWG PATCHCORDS"
+    ],
+    "breadcrumbs": [
+      "Copper Connectivity",
+      "Copper Patch Cord",
+      "UTP",
+      "Cat6 UTP Ultra Slim 28Awg Patchcords"
+    ],
+    "depth": 4,
+    "parentId": "node-copper-connectivity-copper-patch-cord-utp-14ace5b",
+    "childIds": [],
+    "directProductGroupId": "group-copper-connectivity-copper-patch-cord-utp-cat-6-utp-ultra-slim-28awg-p-2b8a5e1",
+    "directImageCount": 5,
+    "totalImageCount": 5,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1-5-cat6-ultra-slim-28awg-patchcords-28f5161.webp"
+  },
+  {
+    "id": "node-copper-connectivity-copper-patch-cord-utp-cat-6a-24-awg-stranded-uutp--a71995e",
+    "name": "Cat6A 24 Awg Stranded U/UTP Patch Cord LSZH",
+    "sourceName": "CAT 6A 24 AWG STRANDED UUTP PATCH CORD LSZH",
+    "path": "COPPER CONNECTIVITY/COPPER PATCH CORD/UTP/CAT 6A 24 AWG STRANDED UUTP PATCH CORD LSZH",
+    "pathSegments": [
+      "COPPER CONNECTIVITY",
+      "COPPER PATCH CORD",
+      "UTP",
+      "CAT 6A 24 AWG STRANDED UUTP PATCH CORD LSZH"
+    ],
+    "breadcrumbs": [
+      "Copper Connectivity",
+      "Copper Patch Cord",
+      "UTP",
+      "Cat6A 24 Awg Stranded U/UTP Patch Cord LSZH"
+    ],
+    "depth": 4,
+    "parentId": "node-copper-connectivity-copper-patch-cord-utp-14ace5b",
+    "childIds": [],
+    "directProductGroupId": "group-copper-connectivity-copper-patch-cord-utp-cat-6a-24-awg-stranded-uutp--a71995e",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/cat-6a-24-awg-stranded-uutp-patch-cord-lszh-5d0a7b2.webp"
+  },
+  {
+    "id": "node-copper-connectivity-copper-patch-cord-utp-cat-6a-utp-ultra-slim-28awg--7503ff6",
+    "name": "Cat6A UTP Ultra Slim 28Awg Patchcords LSZH",
+    "sourceName": "CAT 6A UTP ULTRA SLIM 28AWG PATCHCORDS LSZH",
+    "path": "COPPER CONNECTIVITY/COPPER PATCH CORD/UTP/CAT 6A UTP ULTRA SLIM 28AWG PATCHCORDS LSZH",
+    "pathSegments": [
+      "COPPER CONNECTIVITY",
+      "COPPER PATCH CORD",
+      "UTP",
+      "CAT 6A UTP ULTRA SLIM 28AWG PATCHCORDS LSZH"
+    ],
+    "breadcrumbs": [
+      "Copper Connectivity",
+      "Copper Patch Cord",
+      "UTP",
+      "Cat6A UTP Ultra Slim 28Awg Patchcords LSZH"
+    ],
+    "depth": 4,
+    "parentId": "node-copper-connectivity-copper-patch-cord-utp-14ace5b",
+    "childIds": [],
+    "directProductGroupId": "group-copper-connectivity-copper-patch-cord-utp-cat-6a-utp-ultra-slim-28awg--7503ff6",
+    "directImageCount": 5,
+    "totalImageCount": 5,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1-5-cat6a-ultra-slim-28awg-patchcords-13b3973.webp"
+  },
+  {
+    "id": "node-copper-connectivity-keystone-jacks-and-plug-cat-6-utp-keystone-jack-ca-9a132e6",
+    "name": "Cat6 UTP 180 Degree",
+    "sourceName": "CAT 6 UTP 180 DEGREE",
+    "path": "COPPER CONNECTIVITY/KEYSTONE JACKS AND PLUG/CAT 6 UTP KEYSTONE JACK/CAT 6 UTP 180 DEGREE",
+    "pathSegments": [
+      "COPPER CONNECTIVITY",
+      "KEYSTONE JACKS AND PLUG",
+      "CAT 6 UTP KEYSTONE JACK",
+      "CAT 6 UTP 180 DEGREE"
+    ],
+    "breadcrumbs": [
+      "Copper Connectivity",
+      "Keystone Jacks And Plug",
+      "Cat6 UTP Keystone Jack",
+      "Cat6 UTP 180 Degree"
+    ],
+    "depth": 4,
+    "parentId": "node-copper-connectivity-keystone-jacks-and-plug-cat-6-utp-keystone-jack-9a9bd78",
+    "childIds": [],
+    "directProductGroupId": "group-copper-connectivity-keystone-jacks-and-plug-cat-6-utp-keystone-jack-ca-9a132e6",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/180-degree-keystone-jack-cat6-6aa9458.webp"
+  },
+  {
+    "id": "node-copper-connectivity-keystone-jacks-and-plug-cat-6-utp-keystone-jack-ca-22c5af4",
+    "name": "Cat6 UTP 90 Degree",
+    "sourceName": "CAT 6 UTP 90 DEGREE",
+    "path": "COPPER CONNECTIVITY/KEYSTONE JACKS AND PLUG/CAT 6 UTP KEYSTONE JACK/CAT 6 UTP 90 DEGREE",
+    "pathSegments": [
+      "COPPER CONNECTIVITY",
+      "KEYSTONE JACKS AND PLUG",
+      "CAT 6 UTP KEYSTONE JACK",
+      "CAT 6 UTP 90 DEGREE"
+    ],
+    "breadcrumbs": [
+      "Copper Connectivity",
+      "Keystone Jacks And Plug",
+      "Cat6 UTP Keystone Jack",
+      "Cat6 UTP 90 Degree"
+    ],
+    "depth": 4,
+    "parentId": "node-copper-connectivity-keystone-jacks-and-plug-cat-6-utp-keystone-jack-9a9bd78",
+    "childIds": [],
+    "directProductGroupId": "group-copper-connectivity-keystone-jacks-and-plug-cat-6-utp-keystone-jack-ca-22c5af4",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/90-degree-keystone-jack-cat6-6678a96.webp"
+  },
+  {
+    "id": "node-copper-connectivity-keystone-jacks-and-plug-cat-6a-uutp-keystone-jack--45e30f1",
+    "name": "Cat6A UTP 180 Degree",
+    "sourceName": "CAT 6A UTP 180 DEGREE",
+    "path": "COPPER CONNECTIVITY/KEYSTONE JACKS AND PLUG/CAT 6A UUTP KEYSTONE JACK/CAT 6A UTP 180 DEGREE",
+    "pathSegments": [
+      "COPPER CONNECTIVITY",
+      "KEYSTONE JACKS AND PLUG",
+      "CAT 6A UUTP KEYSTONE JACK",
+      "CAT 6A UTP 180 DEGREE"
+    ],
+    "breadcrumbs": [
+      "Copper Connectivity",
+      "Keystone Jacks And Plug",
+      "Cat6A U/UTP Keystone Jack",
+      "Cat6A UTP 180 Degree"
+    ],
+    "depth": 4,
+    "parentId": "node-copper-connectivity-keystone-jacks-and-plug-cat-6a-uutp-keystone-jack-922ee6b",
+    "childIds": [],
+    "directProductGroupId": "group-copper-connectivity-keystone-jacks-and-plug-cat-6a-uutp-keystone-jack--45e30f1",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/180-degree-keystone-jack-cat6a-74c680b.webp"
+  },
+  {
+    "id": "node-copper-connectivity-keystone-jacks-and-plug-cat-6a-uutp-keystone-jack--3956644",
+    "name": "Cat6A UTP 90 Degree",
+    "sourceName": "CAT 6A UTP 90 DEGREE",
+    "path": "COPPER CONNECTIVITY/KEYSTONE JACKS AND PLUG/CAT 6A UUTP KEYSTONE JACK/CAT 6A UTP 90 DEGREE",
+    "pathSegments": [
+      "COPPER CONNECTIVITY",
+      "KEYSTONE JACKS AND PLUG",
+      "CAT 6A UUTP KEYSTONE JACK",
+      "CAT 6A UTP 90 DEGREE"
+    ],
+    "breadcrumbs": [
+      "Copper Connectivity",
+      "Keystone Jacks And Plug",
+      "Cat6A U/UTP Keystone Jack",
+      "Cat6A UTP 90 Degree"
+    ],
+    "depth": 4,
+    "parentId": "node-copper-connectivity-keystone-jacks-and-plug-cat-6a-uutp-keystone-jack-922ee6b",
+    "childIds": [],
+    "directProductGroupId": "group-copper-connectivity-keystone-jacks-and-plug-cat-6a-uutp-keystone-jack--3956644",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/90-degree-keystone-jack-cat6a-2fd6c73.webp"
+  },
+  {
+    "id": "node-fiber-optic-fiber-cables-indoor-ftth-drop-cable-e867cdf",
+    "name": "FTTH Drop Cable",
+    "sourceName": "FTTH Drop Cable",
+    "path": "FIBER OPTIC/FIBER CABLES/INDOOR/FTTH Drop Cable",
+    "pathSegments": [
+      "FIBER OPTIC",
+      "FIBER CABLES",
+      "INDOOR",
+      "FTTH Drop Cable"
+    ],
+    "breadcrumbs": [
+      "Fiber Optic",
+      "Fiber Cables",
+      "Indoor",
+      "FTTH Drop Cable"
+    ],
+    "depth": 4,
+    "parentId": "node-fiber-optic-fiber-cables-indoor-f787105",
+    "childIds": [],
+    "directProductGroupId": "group-fiber-optic-fiber-cables-indoor-ftth-drop-cable-e867cdf",
+    "directImageCount": 2,
+    "totalImageCount": 2,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1-2-ftth-drop-cable-269bd3a.webp"
+  },
+  {
+    "id": "node-fiber-optic-fiber-cables-indoor-micro-module-riser-cablle-a1c687d",
+    "name": "Micro Module Riser Cablle",
+    "sourceName": "Micro Module Riser Cablle",
+    "path": "FIBER OPTIC/FIBER CABLES/INDOOR/Micro Module Riser Cablle",
+    "pathSegments": [
+      "FIBER OPTIC",
+      "FIBER CABLES",
+      "INDOOR",
+      "Micro Module Riser Cablle"
+    ],
+    "breadcrumbs": [
+      "Fiber Optic",
+      "Fiber Cables",
+      "Indoor",
+      "Micro Module Riser Cablle"
+    ],
+    "depth": 4,
+    "parentId": "node-fiber-optic-fiber-cables-indoor-f787105",
+    "childIds": [],
+    "directProductGroupId": "group-fiber-optic-fiber-cables-indoor-micro-module-riser-cablle-a1c687d",
+    "directImageCount": 1,
+    "totalImageCount": 1,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/micro-module-cable-b881d75.webp"
+  },
+  {
+    "id": "node-fiber-optic-fiber-cables-indoor-tight-buffered-cable-0cdf393",
+    "name": "Tight Buffered Cable",
+    "sourceName": "Tight Buffered Cable",
+    "path": "FIBER OPTIC/FIBER CABLES/INDOOR/Tight Buffered Cable",
+    "pathSegments": [
+      "FIBER OPTIC",
+      "FIBER CABLES",
+      "INDOOR",
+      "Tight Buffered Cable"
+    ],
+    "breadcrumbs": [
+      "Fiber Optic",
+      "Fiber Cables",
+      "Indoor",
+      "Tight Buffered Cable"
+    ],
+    "depth": 4,
+    "parentId": "node-fiber-optic-fiber-cables-indoor-f787105",
+    "childIds": [],
+    "directProductGroupId": "group-fiber-optic-fiber-cables-indoor-tight-buffered-cable-0cdf393",
+    "directImageCount": 3,
+    "totalImageCount": 3,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1-3-tight-buffered-cable-2-10c2a56.webp"
+  },
+  {
+    "id": "node-fiber-optic-fiber-cables-out-door-loose-tube-non-metallic-7051667",
+    "name": "Loose Tube Non metallic",
+    "sourceName": "Loose Tube Non-metallic",
+    "path": "FIBER OPTIC/FIBER CABLES/OUT DOOR/Loose Tube Non-metallic",
+    "pathSegments": [
+      "FIBER OPTIC",
+      "FIBER CABLES",
+      "OUT DOOR",
+      "Loose Tube Non-metallic"
+    ],
+    "breadcrumbs": [
+      "Fiber Optic",
+      "Fiber Cables",
+      "Out Door",
+      "Loose Tube Non metallic"
+    ],
+    "depth": 4,
+    "parentId": "node-fiber-optic-fiber-cables-out-door-e54583b",
+    "childIds": [],
+    "directProductGroupId": "group-fiber-optic-fiber-cables-out-door-loose-tube-non-metallic-7051667",
+    "directImageCount": 2,
+    "totalImageCount": 2,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1-2-loose-tube-non-metallic-06f3109.webp"
+  },
+  {
+    "id": "node-fiber-optic-fiber-management-enclosures-fiber-termination-boxes-indoor-a196169",
+    "name": "Indoor Termination Boxes",
+    "sourceName": "INDOOR TERMINATION BOXES",
+    "path": "FIBER OPTIC/FIBER MANAGEMENT ENCLOSURES/FIBER TERMINATION BOXES/INDOOR TERMINATION BOXES",
+    "pathSegments": [
+      "FIBER OPTIC",
+      "FIBER MANAGEMENT ENCLOSURES",
+      "FIBER TERMINATION BOXES",
+      "INDOOR TERMINATION BOXES"
+    ],
+    "breadcrumbs": [
+      "Fiber Optic",
+      "Fiber Management Enclosures",
+      "Fiber Termination Boxes",
+      "Indoor Termination Boxes"
+    ],
+    "depth": 4,
+    "parentId": "node-fiber-optic-fiber-management-enclosures-fiber-termination-boxes-6f1a9dd",
+    "childIds": [],
+    "directProductGroupId": "group-fiber-optic-fiber-management-enclosures-fiber-termination-boxes-indoor-a196169",
+    "directImageCount": 2,
+    "totalImageCount": 2,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1-2-micro-odf-2546ac9.webp"
+  },
+  {
+    "id": "node-fiber-optic-fiber-management-enclosures-fiber-termination-boxes-outdoo-04c94f3",
+    "name": "Outdoor Termination Boxes",
+    "sourceName": "OUTDOOR TERMINATION BOXES",
+    "path": "FIBER OPTIC/FIBER MANAGEMENT ENCLOSURES/FIBER TERMINATION BOXES/OUTDOOR TERMINATION BOXES",
+    "pathSegments": [
+      "FIBER OPTIC",
+      "FIBER MANAGEMENT ENCLOSURES",
+      "FIBER TERMINATION BOXES",
+      "OUTDOOR TERMINATION BOXES"
+    ],
+    "breadcrumbs": [
+      "Fiber Optic",
+      "Fiber Management Enclosures",
+      "Fiber Termination Boxes",
+      "Outdoor Termination Boxes"
+    ],
+    "depth": 4,
+    "parentId": "node-fiber-optic-fiber-management-enclosures-fiber-termination-boxes-6f1a9dd",
+    "childIds": [],
+    "directProductGroupId": "group-fiber-optic-fiber-management-enclosures-fiber-termination-boxes-outdoo-04c94f3",
+    "directImageCount": 4,
+    "totalImageCount": 4,
+    "productGroupCount": 1,
+    "preview": "/product-catalog/1-4-termination-box-images-04-8b6b35e.webp"
+  }
+]

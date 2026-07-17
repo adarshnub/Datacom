@@ -350,7 +350,7 @@ const stageCopy: Record<Stage, { en: string; ar: string; meta: string }> = {
   building: { en: "Hospital Campus", ar: "مجمع المستشفى", meta: "SITE / 01" },
   room: { en: "Network Room", ar: "غرفة الشبكة", meta: "LEVEL B1 / 02" },
   rack: { en: "Rack D-07", ar: "الرف D-07", meta: "ROW D / 03" },
-  port: { en: "Fibre Port 24", ar: "منفذ الألياف 24", meta: "OM5 / 800G / 04" },
+  port: { en: "Fibre Port 24", ar: "منفذ الألياف 24", meta: "MPO / OM4 / 04" },
 };
 
 export default function DigitalTwin({ locale }: { locale: Locale }) {

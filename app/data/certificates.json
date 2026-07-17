@@ -1,0 +1,226 @@
+[
+  {
+    "id": "ghmt-ag-p000582196-02-01-a-english",
+    "title": "Category 6 Class E Channel Type Approval",
+    "issuer": "GHMT AG",
+    "issuerCountry": "Germany",
+    "documentType": "GHMT type approval",
+    "certificateNo": "P000582196-02-01-A",
+    "scope": "Two-connector Category 6 copper channel including cable, jacks and patch cords",
+    "standards": [
+      "ISO/IEC 11801-1",
+      "DIN EN 50173-1",
+      "Class E"
+    ],
+    "partNumbers": [
+      "DC-CBL-C64P-LSZH",
+      "DC-CBL-C64P-PVC",
+      "DC-MJKJ-C6-BK",
+      "DC-MJRJ-C6-BK",
+      "DC-PC-RJC6-01M-LSZH-XX",
+      "DC-PC-RJC6-02M-LSZH-XX",
+      "DC-PC-RJC6-03M-LSZH-XX",
+      "DC-PC-RJC6-05M-LSZH-XX"
+    ],
+    "issued": "2026-04-14",
+    "validUntil": "2028-04-14",
+    "language": "English",
+    "note": "Certificate references the associated comprehensive test report and is valid for 24 months after testing.",
+    "status": "current",
+    "sourceFile": "GHMT/CAT6 SOLUTION.pdf",
+    "fileHash": "599d8fbcf7c455adb066bca4a63cfcf7783a1a70606fab44fc433cc0faeef25c",
+    "preview": "/trust-library/ghmt-ag-p000582196-02-01-a-english.webp"
+  },
+  {
+    "id": "ghmt-ag-p000582196-01-01-a-english",
+    "title": "Category 6A F/FTP Class EA Channel Type Approval",
+    "issuer": "GHMT AG",
+    "issuerCountry": "Germany",
+    "documentType": "GHMT type approval",
+    "certificateNo": "P000582196-01-01-A",
+    "scope": "Two-connector Category 6A shielded copper channel including cable, jack and patch cords",
+    "standards": [
+      "ISO/IEC 11801-1",
+      "DIN EN 50173-1",
+      "Class EA"
+    ],
+    "partNumbers": [
+      "DC-CBL-C6A-FF-LSZH",
+      "DC-MJRJ-C6A-SH",
+      "DC-PC-RJC6A-SF-01M-LSZH-WT",
+      "DC-PC-RJC6A-SF-02M-LSZH-WT",
+      "DC-PC-RJC6A-SF-03M-LSZH-WT",
+      "DC-PC-RJC6A-SF-05M-LSZH-WT"
+    ],
+    "issued": "2026-04-14",
+    "validUntil": "2028-04-14",
+    "language": "English",
+    "note": "Certificate references the associated comprehensive test report and is valid for 24 months after testing.",
+    "status": "current",
+    "sourceFile": "GHMT/CAT6A FFTP SOLUTION.pdf",
+    "fileHash": "f94d9309d6001ed582e734e72e9eb6b79872023934bb6387d35b6fc64a7f77f4",
+    "preview": "/trust-library/ghmt-ag-p000582196-01-01-a-english.webp"
+  },
+  {
+    "id": "ghmt-ag-p000582196-01-01-a-german",
+    "title": "Category 6A F/FTP Class EA Channel Type Approval - German",
+    "issuer": "GHMT AG",
+    "issuerCountry": "Germany",
+    "documentType": "GHMT type approval",
+    "certificateNo": "P000582196-01-01-A",
+    "scope": "German-language issue of the Category 6A shielded two-connector channel approval",
+    "standards": [
+      "ISO/IEC 11801-1",
+      "DIN EN 50173-1",
+      "Class EA"
+    ],
+    "partNumbers": [
+      "DC-CBL-C6A-FF-LSZH",
+      "DC-MJRJ-C6A-SH",
+      "DC-PC-RJC6A-SF-01M-LSZH-WT",
+      "DC-PC-RJC6A-SF-02M-LSZH-WT",
+      "DC-PC-RJC6A-SF-03M-LSZH-WT",
+      "DC-PC-RJC6A-SF-05M-LSZH-WT"
+    ],
+    "issued": "2026-04-14",
+    "validUntil": "2028-04-14",
+    "language": "German",
+    "note": "German-language counterpart of certificate P000582196-01-01-A.",
+    "status": "current",
+    "sourceFile": "GHMT/SHIELDED SOLUTION.pdf",
+    "fileHash": "2dea03dff3b4ba622c6ef40e4ed02c454a6bcab6301c22489938b4e90f3961f9",
+    "preview": "/trust-library/ghmt-ag-p000582196-01-01-a-german.webp"
+  },
+  {
+    "id": "intertek-105830469crt-001b-english",
+    "title": "Category 6 U/UTP LSZH Cable Certificate of Conformance",
+    "issuer": "Intertek",
+    "issuerCountry": "United States",
+    "documentType": "ETL Verified certificate of conformance",
+    "certificateNo": "105830469CRT-001b",
+    "scope": "Category 6, 23 AWG, four-pair U/UTP LSZH horizontal cable",
+    "standards": [
+      "ANSI/TIA-568.2-D",
+      "Category 6"
+    ],
+    "partNumbers": [
+      "DC-CBL-C64P-LSZH"
+    ],
+    "issued": "2024-06-15",
+    "validUntil": null,
+    "language": "English",
+    "note": "Certificate states that continuing compliance is monitored through production testing, inspections and random sample testing.",
+    "status": "monitored",
+    "sourceFile": "INTERTEK/DATACOM Cat6 Cable C6LSZH-105830469CRT-001b  INTERTEK.pdf",
+    "fileHash": "cf761716b6af4f1a3733fec132188f6fa4c588a6a2c82d6034599ac067b93cfe",
+    "preview": "/trust-library/intertek-105830469crt-001b-english.webp"
+  },
+  {
+    "id": "intertek-106300763crt-001-english",
+    "title": "Category 6A S/FTP LSZH Cable Certificate of Conformance",
+    "issuer": "Intertek",
+    "issuerCountry": "United States",
+    "documentType": "ETL Verified certificate of conformance",
+    "certificateNo": "106300763CRT-001",
+    "scope": "Category 6A, 23 AWG, four-pair S/FTP LSZH horizontal cable",
+    "standards": [
+      "ANSI/TIA-568.2-E",
+      "EN 50173-1",
+      "ISO/IEC 11801-1",
+      "Category 6A"
+    ],
+    "partNumbers": [
+      "DC-CBL-C6A-SF-LSZH"
+    ],
+    "issued": "2025-09-24",
+    "validUntil": null,
+    "language": "English",
+    "note": "Certificate states that continuing compliance is monitored through production testing, inspections and random sample testing.",
+    "status": "monitored",
+    "sourceFile": "INTERTEK/DATACOM Cat6A SFTP LSZH CoC 106300763CRT-001.pdf",
+    "fileHash": "c53c8e9eebf9d00a93761d4647b5adda489419ffb849837339739c86453dfe7e",
+    "preview": "/trust-library/intertek-106300763crt-001-english.webp"
+  },
+  {
+    "id": "intertek-105830469crt-001c-english",
+    "title": "Category 6A U/UTP LSZH Cable Certificate of Conformance",
+    "issuer": "Intertek",
+    "issuerCountry": "United States",
+    "documentType": "ETL Verified certificate of conformance",
+    "certificateNo": "105830469CRT-001c",
+    "scope": "Category 6A, 23 AWG, four-pair U/UTP LSZH horizontal cable",
+    "standards": [
+      "ANSI/TIA-568.2-D",
+      "Category 6A"
+    ],
+    "partNumbers": [
+      "DC-CBL-C6A-UT-LSZH",
+      "DC-CBL-C6A-UTP-LSZH"
+    ],
+    "issued": "2024-06-15",
+    "validUntil": null,
+    "language": "English",
+    "note": "Certificate states that continuing compliance is monitored through production testing, inspections and random sample testing.",
+    "status": "monitored",
+    "sourceFile": "INTERTEK/DATACOM Cat6a UTP CoC 105830469CRT-001c- INTERTEK.pdf",
+    "fileHash": "91b4730a193fa52289be535038ee243165693316353ea2ad945f3113f0601ffd",
+    "preview": "/trust-library/intertek-105830469crt-001c-english.webp"
+  },
+  {
+    "id": "force-technology-2025-360-english",
+    "title": "Category 6A F/FTP Cable Compliance Statement",
+    "issuer": "FORCE Technology",
+    "issuerCountry": "Denmark",
+    "documentType": "EC VERIFIED compliance statement",
+    "certificateNo": "2025-360",
+    "scope": "Category 6A screened F/FTP LSZH cable characterized to 500 MHz",
+    "standards": [
+      "ISO/IEC 11801-1",
+      "IEC 61156-5",
+      "EN 50173-1",
+      "TIA-568.2-E"
+    ],
+    "partNumbers": [
+      "DC-CBL-C6A-FF-LSZH"
+    ],
+    "issued": "2025-06-26",
+    "validUntil": "2026-05-01",
+    "language": "English",
+    "note": "Archived: the compliance statement passed its stated validity date on 1 May 2026.",
+    "status": "expired",
+    "sourceFile": "FORCE/DATACOM CAT6A FFTP-FORCE (EC VERIFIED) ISO IEC COMPLIANCE CERTIFICATE.pdf",
+    "fileHash": "e95d5f09a6055e3c887b46bde742ed4dae784ca30e2fd7d3615ca7e1fe58346d",
+    "preview": "/trust-library/force-technology-2025-360-english.webp"
+  },
+  {
+    "id": "ghmt-ag-c8650b-24-english",
+    "title": "Category 6A U/UTP Class EA Channel Type Approval",
+    "issuer": "GHMT AG",
+    "issuerCountry": "Germany",
+    "documentType": "GHMT type approval",
+    "certificateNo": "c8650b-24",
+    "scope": "Two-connector Category 6A unshielded copper channel including cable, jacks and patch cords",
+    "standards": [
+      "ISO/IEC 11801-1",
+      "DIN EN 50173-1",
+      "Class EA"
+    ],
+    "partNumbers": [
+      "DC-CBL-C6A-UT-LSZH",
+      "DC-MJKJ-C6A-BK",
+      "DC-MJRJ-C6A-BK",
+      "DC-PC-RJC6A-UT-01M-LSZH-XX",
+      "DC-PC-RJC6A-UT-02M-LSZH-XX",
+      "DC-PC-RJC6A-UT-03M-LSZH-XX",
+      "DC-PC-RJC6A-UT-05M-LSZH-XX"
+    ],
+    "issued": "2024-06-03",
+    "validUntil": "2026-06-03",
+    "language": "English",
+    "note": "Archived: the approval's stated 24-month validity period ended on 3 June 2026.",
+    "status": "expired",
+    "sourceFile": "GHMT/DATACOM CAT6A UTP GHMT TEST REPORT-ENGLISH.pdf",
+    "fileHash": "0493dee861965fa8726674fdc91998cd778dee1ca4b44f8e223deb6d128acb3b",
+    "preview": "/trust-library/ghmt-ag-c8650b-24-english.webp"
+  }
+]

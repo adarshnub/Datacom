@@ -20,9 +20,13 @@ import {
   X,
   Zap,
 } from "lucide-react";
-import ProductFinder from "./components/ProductFinder";
+import ProductFinder, { type CatalogProduct } from "./components/ProductFinder";
+import HomeProductGroups from "./components/HomeProductGroups";
 import ScrollFilm from "./components/ScrollFilm";
+import type { ProductHierarchyNode } from "./components/ProductHierarchyBrowser";
 import { faqs, solutions, trustProof, type Locale } from "./content";
+import featuredProducts from "./data/featured-products.json";
+import productHierarchy from "./data/product-hierarchy.json";
 
 function BrandMark({ compact = false }: { compact?: boolean }) {
   return (
@@ -49,6 +53,7 @@ export default function Home() {
   const [submitted, setSubmitted] = useState(false);
   const [progress, setProgress] = useState(0);
   const isArabic = locale === "ar";
+  const parentProductGroups = (productHierarchy as ProductHierarchyNode[]).filter((group) => group.parentId === null);
 
   useEffect(() => {
     document.documentElement.lang = locale;
@@ -159,12 +164,12 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="solutions section" id="solutions" aria-labelledby="solutions-title">
+      <section className="solutions viewport-chapter section" id="solutions" aria-labelledby="solutions-title">
         <div className="section-heading">
           <div>
             <span className="eyebrow">{isArabic ? "01 / مسار الحلول" : "01 / SOLUTION PATH"}</span>
             <h2 id="solutions-title">
-              {isArabic ? <>ابدأ بالنتيجة.<br /><em>صمّم النظام.</em></> : <>Start with the outcome.<br /><em>Engineer the system.</em></>}
+              {isArabic ? <>ابدأ بالنتيجة.<br /><em>صمّم الحل.</em></> : <>Start with the outcome.<br /><em>Engineer the solution.</em></>}
             </h2>
           </div>
           <p>{isArabic ? "أربع بيئات حرجة. منظومة متكاملة واحدة، مصممة ومختبرة لتعمل معاً." : "Four critical environments. One integrated ecosystem, engineered and verified to perform together."}</p>
@@ -189,7 +194,7 @@ export default function Home() {
                   <div className="solution-text">
                     <p>{solution.description[locale]}</p>
                     <div className="solution-tags">
-                      {solution.id === "dc" && ["High-density fibre", "Rack & containment", "Intelligent PDU"].map((tag) => <span key={tag}>{tag}</span>)}
+                      {solution.id === "dc" && ["High-density fibre", "Cabinets & racks", "Intelligent PDU"].map((tag) => <span key={tag}>{tag}</span>)}
                       {solution.id === "enterprise" && ["Copper", "Fibre backbone", "PoE"].map((tag) => <span key={tag}>{tag}</span>)}
                       {solution.id === "gpon" && ["ODF", "Splitters", "FTTH cable"].map((tag) => <span key={tag}>{tag}</span>)}
                       {solution.id === "osp" && ["Cabinets", "Closures", "Armoured cable"].map((tag) => <span key={tag}>{tag}</span>)}
@@ -203,21 +208,21 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="dc-spearhead section" aria-labelledby="dc-title">
+      <section className="dc-spearhead viewport-chapter section" aria-labelledby="dc-title">
         <div className="dc-copy">
           <span className="eyebrow">{isArabic ? "المنظومة الرئيسية / مركز البيانات" : "SPEARHEAD SYSTEM / DATA CENTRE"}</span>
           <h2 id="dc-title">
             {isArabic ? <>الكثافة ترتفع.<br />المخاطر <em>لا يجب أن ترتفع.</em></> : <>Density is rising.<br />Risk <em>doesn’t have to.</em></>}
           </h2>
-          <p>{isArabic ? "مسار مادي كامل للبنية الحاسوبية عالية الكثافة — اتصال وطاقة واحتواء، مصمم كمنظومة واحدة قابلة للتوسع." : "A complete physical pathway for high-density compute—connectivity, power and containment, designed as one scalable system."}</p>
-          <a href="#products" className="primary-button dark-button">{isArabic ? "عرض منتجات مراكز البيانات" : "View data centre products"}<ArrowUpRight size={17} /></a>
+          <p>{isArabic ? "مسار مادي كامل للبنية الحاسوبية عالية الكثافة — اتصال وخزائن وطاقة، مصمم كمنظومة واحدة قابلة للتوسع." : "A complete physical pathway for high-density compute—connectivity, cabinets and power, designed as one scalable system."}</p>
+          <a href="/products?group=Data%20Center%20(DC)%20connectivity%20Products#product-hierarchy" className="primary-button dark-button">{isArabic ? "عرض منتجات مراكز البيانات" : "View data centre products"}<ArrowUpRight size={17} /></a>
         </div>
         <div className="dc-stack" aria-label={isArabic ? "طبقات منظومة مركز البيانات" : "Data centre system layers"}>
           <div className="dc-stack-line" />
           {[
-            { icon: Cable, value: "800G", title: isArabic ? "ألياف عالية الكثافة" : "High-density fibre", detail: "MPO / MTP · OM4 / OM5" },
-            { icon: Database, value: "42U", title: isArabic ? "الرفوف والاحتواء" : "Racks & containment", detail: "DCS Series · Hot / Cold aisle" },
-            { icon: Zap, value: "32A", title: isArabic ? "الطاقة الذكية" : "Intelligent power", detail: "Metered · Switched · Monitored" },
+            { icon: Cable, value: "144F", title: isArabic ? "ألياف عالية الكثافة" : "High-density fibre", detail: "MPO / MTP · OM3 / OM4" },
+            { icon: Database, value: "42U", title: isArabic ? "الخزائن والرفوف" : "Cabinets & racks", detail: "SX Series · up to 1500 kg" },
+            { icon: Zap, value: "16-63A", title: isArabic ? "الطاقة الذكية" : "Intelligent power", detail: "Metered · switched · SNMP" },
           ].map(({ icon: Icon, value, title, detail }, index) => (
             <article className="dc-layer" key={title}>
               <span className="dc-layer-index">0{index + 1}</span>
@@ -229,9 +234,11 @@ export default function Home() {
         </div>
       </section>
 
-      <ProductFinder locale={locale} />
+      <HomeProductGroups locale={locale} groups={parentProductGroups} />
 
-      <section className="projects" aria-labelledby="projects-title">
+      <ProductFinder locale={locale} products={featuredProducts as CatalogProduct[]} previewLimit={4} />
+
+      <section className="projects viewport-chapter" aria-labelledby="projects-title">
         <div className="projects-heading section">
           <span className="eyebrow">{isArabic ? "مصمم هنا. مثبت ميدانياً." : "ENGINEERED HERE. PROVEN IN PLACE."}</span>
           <h2 id="projects-title">{isArabic ? <>البنية الخفية وراء<br /><em>مشاريع بارزة.</em></> : <>The hidden layer behind<br /><em>landmark projects.</em></>}</h2>
@@ -256,7 +263,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="trust section" id="trust" aria-labelledby="trust-title">
+      <section className="trust viewport-chapter section" id="trust" aria-labelledby="trust-title">
         <div className="trust-intro">
           <span className="eyebrow">{isArabic ? "03 / دليل موثّق" : "03 / VERIFIED PROOF"}</span>
           <h2 id="trust-title">{isArabic ? <>الثقة ليست شعاراً.<br /><em>إنها مواصفة.</em></> : <>Trust isn’t a claim.<br /><em>It’s a specification.</em></>}</h2>
@@ -277,13 +284,21 @@ export default function Home() {
             <span>{isArabic ? "بوابة الموافقات الخليجية" : "GCC APPROVAL GATE"}</span>
             <strong>{isArabic ? "مصمم وفق متطلبات السوق." : "Designed for market access."}</strong>
           </div>
-          {["e& / ETISALAT", "du", "TDRA GUIDELINES", "UL LISTED", "INTERTEK ETL"].map((approval) => (
+          {["e& / ETISALAT", "du", "TDRA GUIDELINES", "GHMT TYPE APPROVED", "INTERTEK ETL"].map((approval) => (
             <div className="approval-mark" key={approval}><Check size={15} />{approval}</div>
           ))}
         </div>
+        <a className="trust-library-link" href="/trust">
+          <BadgeCheck />
+          <span>
+            <small>{isArabic ? "مكتبة أدلة محكومة" : "CONTROLLED EVIDENCE LIBRARY"}</small>
+            <strong>{isArabic ? "عرض الشهادات وتقارير المطابقة" : "Open certificates and compliance evidence"}</strong>
+          </span>
+          <ArrowUpRight />
+        </a>
       </section>
 
-      <section className="audiences section" aria-labelledby="audience-title">
+      <section className="audiences viewport-chapter section" aria-labelledby="audience-title">
         <div className="section-heading compact-heading">
           <div>
             <span className="eyebrow">{isArabic ? "04 / مصمم لكل قرار" : "04 / BUILT FOR EVERY DECISION"}</span>
@@ -300,13 +315,13 @@ export default function Home() {
               <div className="audience-top"><span>0{index + 1}</span><Icon /></div>
               <h3>{title}</h3>
               <p>{text}</p>
-              <a href={index === 2 ? "#products" : "#solutions"}>{link}<ArrowUpRight size={16} /></a>
+              <a href={index === 2 ? "/products" : index === 1 ? "/trust" : "#solutions"}>{link}<ArrowUpRight size={16} /></a>
             </article>
           ))}
         </div>
       </section>
 
-      <section className="resource-section section" id="resources" aria-labelledby="resource-title">
+      <section className="resource-section viewport-chapter section" id="resources" aria-labelledby="resource-title">
         <div className="resource-copy">
           <span className="eyebrow">{isArabic ? "05 / معرفة جاهزة للمواصفات" : "05 / SPECIFICATION-READY KNOWLEDGE"}</span>
           <h2 id="resource-title">{isArabic ? <>إجابات مفهومة.<br /><em>ومستندات قابلة للتحقق.</em></> : <>Answers that read clearly.<br /><em>Documents that verify.</em></>}</h2>
@@ -323,7 +338,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="contact section" id="contact" aria-labelledby="contact-title">
+      <section className="contact viewport-chapter section" id="contact" aria-labelledby="contact-title">
         <div className="contact-copy">
           <span className="eyebrow">{isArabic ? "ابدأ المواصفة" : "START A SPECIFICATION"}</span>
           <h2 id="contact-title">{isArabic ? <>ابنِ الطبقة<br /><em>التي تدوم.</em></> : <>Build the layer<br /><em>that lasts.</em></>}</h2>
@@ -356,7 +371,7 @@ export default function Home() {
         </div>
         <div className="footer-grid">
           <div><strong>{isArabic ? "الحلول" : "SOLUTIONS"}</strong><a href="#solutions">Data Centre</a><a href="#solutions">Enterprise</a><a href="#solutions">GPON / FTTx</a><a href="#solutions">Outside Plant</a></div>
-          <div><strong>{isArabic ? "التقني" : "TECHNICAL"}</strong><a href="#products">Product finder</a><a href="#resources">Datasheets</a><a href="#trust">Approvals</a><a href="#contact">Warranty</a></div>
+          <div><strong>{isArabic ? "التقني" : "TECHNICAL"}</strong><a href="/products">Product finder</a><a href="/products">Datasheets</a><a href="/trust">Approvals</a><a href="#contact">Warranty</a></div>
           <div><strong>{isArabic ? "الشركة" : "COMPANY"}</strong><a href="#trust">About Datacom</a><a href="#trust">Quality</a><a href="#contact">Partners</a><a href="#contact">Contact</a></div>
           <div className="footer-location"><strong>{isArabic ? "المقر الرئيسي" : "HEADQUARTERS"}</strong><p>Al Jaddaf Waterfront<br />Dubai, United Arab Emirates</p><a href="tel:+97142858448">+971 4 285 8448</a></div>
         </div>

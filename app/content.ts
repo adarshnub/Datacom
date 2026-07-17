@@ -5,17 +5,17 @@ export const solutions = [
   {
     id: "dc",
     number: "01",
-    title: { en: "Enterprise Data Centre", ar: "مراكز البيانات المؤسسية" },
+    title: { en: "Enterprise Data Centre Solutions", ar: "حلول مراكز البيانات المؤسسية" },
     description: {
       en: "High-density fibre, Cat8 copper, intelligent power and precision rack systems—engineered as one critical layer.",
       ar: "ألياف عالية الكثافة، ونحاس Cat8، وطاقة ذكية، وأنظمة رفوف دقيقة — مصممة كطبقة حرجة واحدة.",
     },
-    meta: "800G / MPO · MTP / Smart PDU",
+    meta: "144F / MPO · MTP / Smart PDU",
   },
   {
     id: "enterprise",
     number: "02",
-    title: { en: "Enterprise Networks", ar: "شبكات المؤسسات" },
+    title: { en: "Enterprise Network Solutions", ar: "حلول شبكات المؤسسات" },
     description: {
       en: "Standards-led copper and fibre infrastructure built for uptime, PoE density and decades of change.",
       ar: "بنية تحتية نحاسية وألياف وفق المعايير، مصممة للاستمرارية وكثافة PoE وعقود من التطور.",
@@ -25,7 +25,7 @@ export const solutions = [
   {
     id: "gpon",
     number: "03",
-    title: { en: "GPON & FTTx", ar: "حلول GPON وFTTx" },
+    title: { en: "GPON & FTTx Solutions", ar: "حلول GPON وFTTx" },
     description: {
       en: "Approved fibre pathways from the provider handoff to every floor, room and connected endpoint.",
       ar: "مسارات ألياف معتمدة من نقطة تسليم المزود إلى كل طابق وغرفة ونقطة اتصال.",
@@ -35,22 +35,13 @@ export const solutions = [
   {
     id: "osp",
     number: "04",
-    title: { en: "Outside Plant", ar: "البنية التحتية الخارجية" },
+    title: { en: "Outside Plant Solutions", ar: "حلول البنية التحتية الخارجية" },
     description: {
       en: "Resilient cabinets, closures, ducts and cables for the harshest routes between buildings and cities.",
       ar: "خزائن ووصلات وقنوات وكابلات متينة لأقسى المسارات بين المباني والمدن.",
     },
     meta: "IP65 / Armoured / Aerial",
   },
-];
-
-export const products = [
-  { code: "DC-RK-DCS-42U", name: { en: "DCS Series Data Centre Cabinet", ar: "خزانة مركز بيانات DCS" }, family: "Racks", spec: "42U · 800 × 1200 mm", badge: "Data Centre" },
-  { code: "DC-FO-MPO-1U", name: { en: "Ultra High Density MPO Chassis", ar: "هيكل MPO فائق الكثافة" }, family: "Fibre", spec: "144F · 1U · OM4/OM5", badge: "800G Ready" },
-  { code: "DC-CU-C8-SFTP", name: { en: "Cat8 S/FTP Copper System", ar: "نظام نحاسي Cat8 S/FTP" }, family: "Copper", spec: "2000 MHz · 40G", badge: "DC Grade" },
-  { code: "DC-PDU-SM-32A", name: { en: "Intelligent Metered PDU", ar: "وحدة توزيع طاقة ذكية" }, family: "Power", spec: "32A · 36 × C13 / 6 × C19", badge: "Remote Metering" },
-  { code: "DC-FO-OS2-24C", name: { en: "OS2 Loose Tube Fibre Cable", ar: "كابل ألياف OS2 أنبوبي" }, family: "Fibre", spec: "24 Core · LSZH · Dca", badge: "Telco Approved" },
-  { code: "DC-CU-C6A-UFTP", name: { en: "Cat6A U/FTP Cable", ar: "كابل Cat6A U/FTP" }, family: "Copper", spec: "500 MHz · 23 AWG · LSZH", badge: "PoE++" },
 ];
 
 export const trustProof = [

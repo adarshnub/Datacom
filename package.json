@@ -7,6 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
+    "catalog:build": "python scripts/build_product_catalog.py",
+    "trust:build": "python scripts/build_trust_library.py",
     "meshy:preview": "node scripts/meshy/generate-previews.mjs",
     "meshy:status": "node scripts/meshy/check-tasks.mjs",
     "meshy:refine": "node scripts/meshy/refine-approved.mjs",
