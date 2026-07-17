@@ -73,6 +73,11 @@ export default function ScrollFilm({ locale, onSearchProducts }: ScrollFilmProps
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
+    const fallback = window.setTimeout(() => setReady(true), 4500);
+    return () => window.clearTimeout(fallback);
+  }, []);
+
+  useEffect(() => {
     const section = sectionRef.current;
     const sticky = stickyRef.current;
     const video = videoRef.current;
@@ -136,9 +141,12 @@ export default function ScrollFilm({ locale, onSearchProducts }: ScrollFilmProps
           onLoadedMetadata={(event) => {
             durationRef.current = event.currentTarget.duration || 32;
             event.currentTarget.pause();
+            setReady(true);
             window.requestAnimationFrame(() => window.dispatchEvent(new Event("scroll")));
           }}
+          onLoadedData={() => setReady(true)}
           onCanPlay={() => setReady(true)}
+          onError={() => setReady(true)}
         >
           <source src="/media/datacom-scroll-film/datacom-scroll-master-mobile.mp4" type="video/mp4" media="(max-width: 900px)" />
           <source src="/media/datacom-scroll-film/datacom-scroll-master.mp4" type="video/mp4" />
