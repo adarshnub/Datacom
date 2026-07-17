@@ -1,0 +1,44 @@
+{
+  "name": "datacom-2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "meshy:preview": "node scripts/meshy/generate-previews.mjs",
+    "meshy:status": "node scripts/meshy/check-tasks.mjs",
+    "meshy:refine": "node scripts/meshy/refine-approved.mjs",
+    "meshy:references": "node scripts/meshy/generate-references.mjs",
+    "meshy:references:status": "node scripts/meshy/check-references.mjs",
+    "meshy:image-models": "node scripts/meshy/generate-image-models.mjs",
+    "meshy:image-models:status": "node scripts/meshy/check-image-models.mjs",
+    "meshy:retexture": "node scripts/meshy/retexture-approved.mjs",
+    "meshy:retexture:status": "node scripts/meshy/check-retextures.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/instrument-sans": "5.2.8",
+    "@fontsource-variable/jetbrains-mono": "5.2.8",
+    "@react-three/drei": "10.7.7",
+    "@react-three/fiber": "9.6.1",
+    "lucide-react": "1.24.0",
+    "next": "16.2.10",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "three": "0.185.1"
+  },
+  "devDependencies": {
+    "@gltf-transform/cli": "^4.4.1",
+    "@types/node": "^20.19.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@types/three": "^0.185.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "16.2.10",
+    "typescript": "^5.9.0"
+  },
+  "overrides": {
+    "postcss": "8.5.10"
+  }
+}
