@@ -148,8 +148,8 @@ export default function ScrollFilm({ locale, onSearchProducts }: ScrollFilmProps
           onCanPlay={() => setReady(true)}
           onError={() => setReady(true)}
         >
-          <source src="/media/datacom-scroll-film/datacom-scroll-master-mobile.mp4" type="video/mp4" media="(max-width: 900px)" />
-          <source src="/media/datacom-scroll-film/datacom-scroll-master.mp4" type="video/mp4" />
+          <source src="/media/datacom-scroll-film/datacom-scroll-master-mobile.mp4?v=20260718-scrub-optimized" type="video/mp4" media="(max-width: 900px)" />
+          <source src="/media/datacom-scroll-film/datacom-scroll-master.mp4?v=20260718-scrub-optimized" type="video/mp4" />
         </video>
 
         <div className="scroll-film-shade" aria-hidden="true" />

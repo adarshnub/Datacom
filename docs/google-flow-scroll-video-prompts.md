@@ -159,6 +159,11 @@ Filename: `clip-01-building-to-xray.mp4`
 Start frame: Frame 02  
 End frame: Frame 03
 
+For the stricter regeneration prompt that prevents exterior floating cables and invented first-floor doors while preserving the current clip's exact endpoints, use `docs/clip-02-corrected-video-prompt.md` with:
+
+- `public/media/datacom-scroll-film/clip-02-first-frame.png`
+- `public/media/datacom-scroll-film/clip-02-last-frame.png`
+
 ```text
 [Insert the Global visual bible and Continuity rules.]
 
