@@ -190,6 +190,8 @@ Filename: `clip-03-data-room-to-rack.mp4`
 Start frame: Frame 04  
 End frame: Frame 05
 
+Alternative interactive finale: use `docs/clip-04-interactive-signal-verification-prompt.md` in first-frame mode with `public/media/datacom-scroll-film/clip-04-interactive-first-frame.png`. This version begins on the exact final frame of Clip 03 and replaces the fixed macro endpoint with a reversible physical link-verification sequence.
+
 ```text
 [Insert the Global visual bible and Continuity rules.]
 
