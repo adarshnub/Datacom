@@ -6,9 +6,6 @@ import { ArrowLeft, BadgeCheck, FileStack, Globe2, ShieldCheck } from "lucide-re
 import ProductHierarchyBrowser, { type NestedProductGroup, type ProductHierarchyNode } from "../components/ProductHierarchyBrowser";
 import ProductFinder, { type CatalogProduct } from "../components/ProductFinder";
 import type { Locale } from "../content";
-import hierarchyData from "../data/product-hierarchy.json";
-import nestedProductsData from "../data/nested-products-public.json";
-import catalogue from "../data/sku-catalog-public.json";
 
 function CatalogueBrand() {
   return (
@@ -27,11 +24,24 @@ function CatalogueBrand() {
   );
 }
 
-export default function ProductsPageClient({ initialQuery = "", initialGroupPath = "" }: { initialQuery?: string; initialGroupPath?: string }) {
+type ProductsPageClientProps = {
+  initialQuery?: string;
+  initialGroupPath?: string;
+  products: CatalogProduct[];
+  hierarchy: ProductHierarchyNode[];
+  nestedProducts: NestedProductGroup[];
+  verificationIndex: Record<string, string[]>;
+};
+
+export default function ProductsPageClient({
+  initialQuery = "",
+  initialGroupPath = "",
+  products,
+  hierarchy,
+  nestedProducts,
+  verificationIndex,
+}: ProductsPageClientProps) {
   const [locale, setLocale] = useState<Locale>("en");
-  const products = catalogue as CatalogProduct[];
-  const hierarchy = hierarchyData as ProductHierarchyNode[];
-  const nestedProducts = nestedProductsData as NestedProductGroup[];
 
   return (
     <div className={locale === "ar" ? "arabic catalogue-page" : "catalogue-page"} dir={locale === "ar" ? "rtl" : "ltr"}>
@@ -83,7 +93,15 @@ export default function ProductsPageClient({ initialQuery = "", initialGroupPath
         </section>
 
         <ProductHierarchyBrowser key={initialGroupPath} locale={locale} nodes={hierarchy} groups={nestedProducts} initialPath={initialGroupPath} />
-        <ProductFinder key={initialQuery} locale={locale} products={products} fullCatalog initialQuery={initialQuery} catalogKind="skus" />
+        <ProductFinder
+          key={initialQuery}
+          locale={locale}
+          products={products}
+          fullCatalog
+          initialQuery={initialQuery}
+          catalogKind="skus"
+          verificationIndex={verificationIndex}
+        />
       </main>
 
       <footer className="catalogue-footer">

@@ -14,12 +14,11 @@ import {
   Search,
   ShieldCheck,
 } from "lucide-react";
-import certificatesData from "../data/certificates-public.json";
 import type { Locale } from "../content";
 
 type CertificateStatus = "current" | "monitored" | "expired";
 
-type Certificate = {
+export type Certificate = {
   id: string;
   title: string;
   issuer: string;
@@ -68,12 +67,11 @@ const formatDate = (value: string | null, locale: Locale) => {
   }).format(new Date(`${value}T00:00:00`));
 };
 
-export default function TrustPageClient({ initialQuery = "" }: { initialQuery?: string }) {
+export default function TrustPageClient({ initialQuery = "", certificates }: { initialQuery?: string; certificates: Certificate[] }) {
   const [locale, setLocale] = useState<Locale>("en");
   const [query, setQuery] = useState(initialQuery);
   const [issuer, setIssuer] = useState("All");
   const [includeArchive, setIncludeArchive] = useState(false);
-  const certificates = certificatesData as Certificate[];
   const issuers = ["All", ...Array.from(new Set(certificates.map((item) => item.issuer)))];
 
   const filtered = useMemo(() => {

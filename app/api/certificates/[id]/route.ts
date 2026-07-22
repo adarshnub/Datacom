@@ -1,7 +1,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { NextRequest, NextResponse } from "next/server";
-import certificates from "../../../data/certificates.json";
+import { getCertificateById } from "../../../lib/data";
 
 type RouteContext = {
   params: Promise<{ id: string }>;
@@ -11,7 +11,7 @@ export const runtime = "nodejs";
 
 export async function GET(request: NextRequest, { params }: RouteContext) {
   const { id } = await params;
-  const certificate = certificates.find((item) => item.id === id);
+  const certificate = await getCertificateById(id);
 
   if (!certificate) {
     return NextResponse.json({ error: "Certificate not found" }, { status: 404 });

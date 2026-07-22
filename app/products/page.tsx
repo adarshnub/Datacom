@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
+import { getProductsPageData } from "../lib/data";
 import ProductsPageClient from "./ProductsPageClient";
+
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Technical Product Catalogue | Datacom",
@@ -12,6 +15,15 @@ type ProductsPageProps = {
 };
 
 export default async function ProductsPage({ searchParams }: ProductsPageProps) {
-  const { query = "", group = "" } = await searchParams;
-  return <ProductsPageClient initialQuery={query} initialGroupPath={group} />;
+  const [{ query = "", group = "" }, data] = await Promise.all([searchParams, getProductsPageData()]);
+  return (
+    <ProductsPageClient
+      initialQuery={query}
+      initialGroupPath={group}
+      products={data.products}
+      hierarchy={data.hierarchy}
+      nestedProducts={data.groups}
+      verificationIndex={data.verificationIndex}
+    />
+  );
 }

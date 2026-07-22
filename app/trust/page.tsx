@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
-import certificates from "../data/certificates-public.json";
+import { getCertificates } from "../lib/data";
 import TrustPageClient from "./TrustPageClient";
+
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Trust & Compliance Centre | Datacom",
@@ -13,7 +15,7 @@ type TrustPageProps = {
 };
 
 export default async function TrustPage({ searchParams }: TrustPageProps) {
-  const { product = "" } = await searchParams;
+  const [{ product = "" }, certificates] = await Promise.all([searchParams, getCertificates()]);
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
@@ -33,7 +35,7 @@ export default async function TrustPage({ searchParams }: TrustPageProps) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
-      <TrustPageClient initialQuery={product} />
+      <TrustPageClient initialQuery={product} certificates={certificates} />
     </>
   );
 }

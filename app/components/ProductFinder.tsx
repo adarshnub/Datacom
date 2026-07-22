@@ -5,7 +5,6 @@ import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ArrowDownToLine, ArrowUpRight, BadgeCheck, FileText, Search, SlidersHorizontal } from "lucide-react";
 import type { Locale } from "../content";
-import verificationData from "../data/product-verifications.json";
 
 export type CatalogProduct = {
   id: string;
@@ -32,6 +31,7 @@ type ProductFinderProps = {
   initialQuery?: string;
   catalogKind?: "documents" | "skus";
   previewLimit?: number;
+  verificationIndex?: Record<string, string[]>;
 };
 
 const familyOrder = ["Data Centre", "Copper", "Fibre", "Cabinets", "Power", "Building Systems"];
@@ -45,9 +45,15 @@ const familyArabic: Record<string, string> = {
   "Building Systems": "أنظمة المباني",
 };
 
-const verificationIndex = verificationData as Record<string, string[]>;
-
-export default function ProductFinder({ locale, products, fullCatalog = false, initialQuery = "", catalogKind = "documents", previewLimit = 8 }: ProductFinderProps) {
+export default function ProductFinder({
+  locale,
+  products,
+  fullCatalog = false,
+  initialQuery = "",
+  catalogKind = "documents",
+  previewLimit = 8,
+  verificationIndex = {},
+}: ProductFinderProps) {
   const [query, setQuery] = useState(initialQuery);
   const [family, setFamily] = useState("All");
   const [visibleCount, setVisibleCount] = useState(fullCatalog ? 12 : 8);

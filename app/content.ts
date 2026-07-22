@@ -75,4 +75,14 @@ export const faqs = [
   },
 ];
 
+export type Solution = (typeof solutions)[number];
+export type TrustProof = (typeof trustProof)[number];
+export type Faq = (typeof faqs)[number];
+export type HomePageContent = {
+  id: string;
+  solutions: Solution[];
+  trustProof: TrustProof[];
+  faqs: Faq[];
+};
+
 export const t = (value: Copy, locale: Locale) => value[locale];

@@ -1,7 +1,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { NextRequest, NextResponse } from "next/server";
-import catalog from "../../../data/product-catalog.json";
+import { getProductById } from "../../../lib/data";
 
 type RouteContext = {
   params: Promise<{ id: string }>;
@@ -11,7 +11,7 @@ export const runtime = "nodejs";
 
 export async function GET(request: NextRequest, { params }: RouteContext) {
   const { id } = await params;
-  const product = catalog.find((item) => item.id === id);
+  const product = await getProductById(id);
 
   if (!product) {
     return NextResponse.json({ error: "Specification sheet not found" }, { status: 404 });
