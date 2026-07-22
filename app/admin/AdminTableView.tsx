@@ -20,6 +20,7 @@ type JsonDocument = Record<string, unknown>;
 type AdminTableViewProps = {
   collectionName: string;
   documents: JsonDocument[];
+  draftIds: string[];
   loading: boolean;
   query: string;
   onQueryChange: (value: string) => void;
@@ -67,6 +68,7 @@ function parseCell(raw: string, sample: unknown, field: string) {
 export default function AdminTableView({
   collectionName,
   documents,
+  draftIds,
   loading,
   query,
   onQueryChange,
@@ -161,11 +163,11 @@ export default function AdminTableView({
 
     cancelEditing();
     await onReload(collectionName, id);
-    setNotice({ kind: "success", message: creating ? "New row created and published." : "Row changes saved to MongoDB." });
+    setNotice({ kind: "success", message: creating ? "New row saved as a draft." : "Row changes saved as a draft." });
   }
 
   async function deleteRow(id: string) {
-    if (!window.confirm(`Delete "${id}"? This cannot be undone.`)) return;
+    if (!window.confirm(`Stage "${id}" for deletion? It stays live until you publish.`)) return;
     setSaving(true);
     const response = await fetch(
       `/api/admin/collections/${encodeURIComponent(collectionName)}/${encodeURIComponent(id)}`,
@@ -179,7 +181,7 @@ export default function AdminTableView({
     }
     cancelEditing();
     await onReload(collectionName);
-    setNotice({ kind: "success", message: "Row deleted from MongoDB." });
+    setNotice({ kind: "success", message: "Deletion saved as a draft. Publish to make it live." });
   }
 
   function editableCell(field: string, original?: JsonDocument) {
@@ -263,8 +265,11 @@ export default function AdminTableView({
               const id = String(document.id);
               const editing = editingId === id;
               return (
-                <tr key={id} className={editing ? "editing" : ""}>
-                  <td className="admin-table-row-index">{String(index + 1).padStart(3, "0")}</td>
+                <tr key={id} className={`${editing ? "editing" : ""} ${draftIds.includes(id) ? "draft" : ""}`.trim()}>
+                  <td className="admin-table-row-index">
+                    {String(index + 1).padStart(3, "0")}
+                    {draftIds.includes(id) && <em>DRAFT</em>}
+                  </td>
                   {columns.map((field) => (
                     <td key={field} className={field === "id" ? "id-cell" : ""}>
                       {editing ? editableCell(field, document) : cellSummary(document[field])}

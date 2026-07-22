@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { redirect } from "next/navigation";
 import { getAdminSession } from "../lib/admin-auth";
 import { adminCollections } from "../lib/admin-config";
+import { getCollectionWorkspace } from "../lib/admin-drafts";
 import { getDatabase } from "../lib/mongodb";
 import AdminDashboard from "./AdminDashboard";
 
@@ -29,13 +30,15 @@ export default async function AdminPage() {
     count: countIndex[collection.name] || 0,
   }));
   const firstCollection = adminCollections[0].name;
-  const initialRecords = await database.collection(firstCollection).find({}).sort({ _position: 1 }).limit(1000).toArray();
-  const initialDocuments = initialRecords.map(({ _id, _position, _sourceFile, ...document }) => {
-    void _id;
-    void _position;
-    void _sourceFile;
-    return document;
-  });
+  const workspace = await getCollectionWorkspace(firstCollection);
 
-  return <AdminDashboard collections={collections} initialDocuments={initialDocuments} operatorEmail={session.email} />;
+  return (
+    <AdminDashboard
+      collections={collections}
+      initialDocuments={workspace.documents}
+      initialDraftIds={workspace.draftIds}
+      initialDraftCount={workspace.totalDraftCount}
+      operatorEmail={session.email}
+    />
+  );
 }

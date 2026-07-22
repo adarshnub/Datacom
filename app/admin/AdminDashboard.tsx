@@ -8,6 +8,7 @@ import {
   Check,
   ChevronRight,
   CircleAlert,
+  CloudUpload,
   Code2,
   Database,
   FileJson,
@@ -18,6 +19,7 @@ import {
   RefreshCw,
   Save,
   Search,
+  Settings,
   TableProperties,
   Trash2,
   X,
@@ -35,6 +37,8 @@ type AdminCollection = {
 type AdminDashboardProps = {
   collections: AdminCollection[];
   initialDocuments: JsonDocument[];
+  initialDraftIds: string[];
+  initialDraftCount: number;
   operatorEmail: string;
 };
 
@@ -52,7 +56,13 @@ function documentMeta(document: JsonDocument) {
   return String(document.family || document.issuer || document.path || document.scope || document.id || "JSON document");
 }
 
-export default function AdminDashboard({ collections: initialCollections, initialDocuments, operatorEmail }: AdminDashboardProps) {
+export default function AdminDashboard({
+  collections: initialCollections,
+  initialDocuments,
+  initialDraftIds,
+  initialDraftCount,
+  operatorEmail,
+}: AdminDashboardProps) {
   const router = useRouter();
   const [collections, setCollections] = useState(initialCollections);
   const [activeName, setActiveName] = useState(initialCollections[0]?.name || "");
@@ -62,6 +72,9 @@ export default function AdminDashboard({ collections: initialCollections, initia
   const [query, setQuery] = useState("");
   const [loading, setLoading] = useState(false);
   const [saving, setSaving] = useState(false);
+  const [publishing, setPublishing] = useState(false);
+  const [draftIds, setDraftIds] = useState(initialDraftIds);
+  const [draftCount, setDraftCount] = useState(initialDraftCount);
   const [creating, setCreating] = useState(false);
   const [notice, setNotice] = useState<{ kind: "success" | "error"; message: string } | null>(null);
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -84,7 +97,12 @@ export default function AdminDashboard({ collections: initialCollections, initia
       router.push("/admin/login");
       return;
     }
-    const result = await response.json().catch(() => ({})) as { documents?: JsonDocument[]; error?: string };
+    const result = await response.json().catch(() => ({})) as {
+      documents?: JsonDocument[];
+      draftIds?: string[];
+      totalDraftCount?: number;
+      error?: string;
+    };
     if (!response.ok) {
       setNotice({ kind: "error", message: result.error || "Could not load this collection." });
       setLoading(false);
@@ -93,6 +111,8 @@ export default function AdminDashboard({ collections: initialCollections, initia
 
     const nextDocuments = result.documents || [];
     setDocuments(nextDocuments);
+    setDraftIds(result.draftIds || []);
+    setDraftCount(result.totalDraftCount || 0);
     setCollections((current) => current.map((item) => item.name === collectionName ? { ...item, count: nextDocuments.length } : item));
     const nextSelected = nextDocuments.find((item) => item.id === preferredId) || nextDocuments[0] || null;
     setSelectedId(nextSelected ? String(nextSelected.id) : null);
@@ -151,11 +171,11 @@ export default function AdminDashboard({ collections: initialCollections, initia
     }
 
     await loadDocuments(activeCollection.name, id);
-    setNotice({ kind: "success", message: creating ? "Record created and published." : "Changes saved to MongoDB." });
+    setNotice({ kind: "success", message: creating ? "New record saved as a draft." : "Changes saved as a draft." });
   }
 
   async function deleteDocument() {
-    if (!activeCollection || !selectedId || !window.confirm(`Delete "${selectedId}"? This cannot be undone.`)) return;
+    if (!activeCollection || !selectedId || !window.confirm(`Stage "${selectedId}" for deletion? It stays live until you publish.`)) return;
     setSaving(true);
     const response = await fetch(
       `/api/admin/collections/${encodeURIComponent(activeCollection.name)}/${encodeURIComponent(selectedId)}`,
@@ -168,7 +188,30 @@ export default function AdminDashboard({ collections: initialCollections, initia
       return;
     }
     await loadDocuments(activeCollection.name);
-    setNotice({ kind: "success", message: "Record deleted from MongoDB." });
+    setNotice({ kind: "success", message: "Deletion saved as a draft. Publish to make it live." });
+  }
+
+  async function publishChanges() {
+    if (!draftCount || publishing) return;
+    setPublishing(true);
+    setNotice(null);
+    const response = await fetch("/api/admin/publish", { method: "POST" });
+    const result = await response.json().catch(() => ({})) as {
+      data?: { publishedCount?: number };
+      error?: string;
+    };
+    if (response.status === 401) {
+      router.push("/admin/login");
+      return;
+    }
+    setPublishing(false);
+    if (!response.ok) {
+      setNotice({ kind: "error", message: result.error || "Draft changes could not be published." });
+      return;
+    }
+    await loadDocuments(activeName, selectedId || undefined);
+    const count = result.data?.publishedCount || 0;
+    setNotice({ kind: "success", message: `${count} draft change${count === 1 ? "" : "s"} published. The live cache is refreshed.` });
   }
 
   async function logout() {
@@ -192,10 +235,19 @@ export default function AdminDashboard({ collections: initialCollections, initia
           <span><strong>DATACOM</strong><small>CONTROL PLANE</small></span>
         </a>
         <div className="admin-topbar-status">
-          <span><i /> LIVE DATABASE</span>
+          <span><i /> CONTENT WORKSPACE</span>
           <b>{totalDocuments} RECORDS</b>
         </div>
         <div className="admin-operator">
+          <button
+            className="admin-publish-action"
+            onClick={() => void publishChanges()}
+            disabled={!draftCount || publishing}
+            title={draftCount ? `Publish ${draftCount} draft changes` : "No unpublished changes"}
+          >
+            <CloudUpload /> {publishing ? "Publishing…" : "Publish"}
+            <b>{draftCount}</b>
+          </button>
           <span><small>OPERATOR</small>{operatorEmail}</span>
           <a href="/" target="_blank" rel="noreferrer">View site <ArrowUpRight /></a>
           <button onClick={logout} aria-label="Sign out"><LogOut /></button>
@@ -209,6 +261,7 @@ export default function AdminDashboard({ collections: initialCollections, initia
           <button onClick={() => setSidebarOpen(false)} aria-label="Close navigation"><X /></button>
         </div>
         <a className="admin-overview-link active" href="/admin"><LayoutDashboard /> Content control <ChevronRight /></a>
+        <a className="admin-overview-link" href="/admin/settings"><Settings /> Settings <ChevronRight /></a>
         {Object.entries(groupedCollections).map(([group, items]) => (
           <div className="admin-nav-group" key={group}>
             <span>{group}</span>
@@ -258,6 +311,7 @@ export default function AdminDashboard({ collections: initialCollections, initia
             key={activeName}
             collectionName={activeName}
             documents={documents}
+            draftIds={draftIds}
             loading={loading}
             query={query}
             onQueryChange={setQuery}
@@ -280,12 +334,12 @@ export default function AdminDashboard({ collections: initialCollections, initia
               ) : filteredDocuments.length ? (
                 filteredDocuments.map((document, index) => (
                   <button
-                    className={selectedId === document.id && !creating ? "active" : ""}
+                    className={`${selectedId === document.id && !creating ? "active" : ""} ${draftIds.includes(String(document.id)) ? "draft" : ""}`.trim()}
                     key={String(document.id)}
                     onClick={() => selectDocument(document)}
                   >
                     <span>{String(index + 1).padStart(3, "0")}</span>
-                    <div><strong>{documentTitle(document)}</strong><small>{documentMeta(document)}</small></div>
+                    <div><strong>{documentTitle(document)}{draftIds.includes(String(document.id)) && <em>DRAFT</em>}</strong><small>{documentMeta(document)}</small></div>
                     <ChevronRight />
                   </button>
                 ))
@@ -298,7 +352,7 @@ export default function AdminDashboard({ collections: initialCollections, initia
           <section className="admin-editor" aria-label="JSON record editor">
             <div className="admin-editor-head">
               <div>
-                <span>{creating ? "NEW RECORD" : selectedDocument ? "EDITING" : "NO SELECTION"}</span>
+                <span>{creating ? "NEW DRAFT" : selectedDocument && draftIds.includes(String(selectedDocument.id)) ? "DRAFT / EDITING" : selectedDocument ? "EDITING" : "NO SELECTION"}</span>
                 <strong>{creating ? "Unsaved document" : selectedDocument ? documentTitle(selectedDocument) : "Select a record"}</strong>
               </div>
               <div>
@@ -336,7 +390,7 @@ export default function AdminDashboard({ collections: initialCollections, initia
             </div>
 
             <div className="admin-editor-foot">
-              <span><i /> Changes publish directly to MongoDB</span>
+              <span><i /> Saves remain drafts until global publish</span>
               <div>
                 <button
                   onClick={() => {
@@ -348,7 +402,7 @@ export default function AdminDashboard({ collections: initialCollections, initia
                   Reset
                 </button>
                 <button className="save" onClick={saveDocument} disabled={!draft || saving}>
-                  <Save /> {saving ? "Saving…" : creating ? "Create record" : "Save changes"}
+                  <Save /> {saving ? "Saving…" : creating ? "Save new draft" : "Save draft"}
                 </button>
               </div>
             </div>

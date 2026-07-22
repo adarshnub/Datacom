@@ -1,9 +1,10 @@
-import { cache } from "react";
+import { unstable_cache } from "next/cache";
 import type { CatalogProduct } from "../components/ProductFinder";
 import type { NestedProductGroup, ProductHierarchyNode } from "../components/ProductHierarchyBrowser";
 import type { Certificate } from "../trust/TrustPageClient";
 import { faqs, solutions, trustProof, type HomePageContent } from "../content";
 import { getDatabase } from "./mongodb";
+import { contentCacheTags } from "./content-cache";
 
 const publicProjection = { _id: 0, _position: 0, _sourceFile: 0, sourceFile: 0, fileHash: 0 } as const;
 const internalProjection = { _id: 0, _position: 0, _sourceFile: 0 } as const;
@@ -30,7 +31,7 @@ async function loadVerificationIndex() {
   );
 }
 
-export const getHomePageData = cache(async () => {
+export const getHomePageData = unstable_cache(async () => {
   const database = await getDatabase();
   const [featuredProducts, productHierarchy, verificationIndex, siteContentRecord] = await Promise.all([
     database
@@ -53,9 +54,12 @@ export const getHomePageData = cache(async () => {
     verificationIndex,
     siteContent: (siteContentRecord || { id: "homepage", solutions, trustProof, faqs }) as unknown as HomePageContent,
   };
+}, ["datacom-home-page-data-v1"], {
+  tags: [contentCacheTags.all, contentCacheTags.home],
+  revalidate: 86_400,
 });
 
-export const getProductsPageData = cache(async () => {
+export const getProductsPageData = unstable_cache(async () => {
   const database = await getDatabase();
   const [products, hierarchy, groups, verificationIndex] = await Promise.all([
     database.collection("skuCatalogPublic").find({}, { projection: publicProjection }).sort({ _position: 1 }).toArray(),
@@ -78,9 +82,12 @@ export const getProductsPageData = cache(async () => {
     groups: groups as unknown as NestedProductGroup[],
     verificationIndex,
   };
+}, ["datacom-products-page-data-v1"], {
+  tags: [contentCacheTags.all, contentCacheTags.products],
+  revalidate: 86_400,
 });
 
-export const getCertificates = cache(async () => {
+export const getCertificates = unstable_cache(async () => {
   const database = await getDatabase();
   const certificates = await database
     .collection("certificatesPublic")
@@ -89,16 +96,25 @@ export const getCertificates = cache(async () => {
     .toArray();
 
   return certificates as unknown as Certificate[];
+}, ["datacom-trust-page-data-v1"], {
+  tags: [contentCacheTags.all, contentCacheTags.trust],
+  revalidate: 86_400,
 });
 
-export async function getProductById(id: string) {
+export const getProductById = unstable_cache(async (id: string) => {
   const database = await getDatabase();
   return database.collection("productCatalog").findOne({ id }, { projection: internalProjection }) as Promise<ProductRecord | null>;
-}
+}, ["datacom-product-by-id-v1"], {
+  tags: [contentCacheTags.all, contentCacheTags.datasheets],
+  revalidate: 86_400,
+});
 
-export async function getCertificateById(id: string) {
+export const getCertificateById = unstable_cache(async (id: string) => {
   const database = await getDatabase();
   return database
     .collection("certificates")
     .findOne({ id }, { projection: internalProjection }) as Promise<CertificateRecord | null>;
-}
+}, ["datacom-certificate-by-id-v1"], {
+  tags: [contentCacheTags.all, contentCacheTags.certificateFiles],
+  revalidate: 86_400,
+});

@@ -1,28 +1,13 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getAdminSession } from "../../../../lib/admin-auth";
 import { isAdminCollection } from "../../../../lib/admin-config";
-import { getDatabase } from "../../../../lib/mongodb";
+import { getCollectionWorkspace, stageCreateDraft } from "../../../../lib/admin-drafts";
 
 type RouteContext = {
   params: Promise<{ collection: string }>;
 };
 
-type AdminStoredDocument = Record<string, unknown> & {
-  _id: string;
-  _position: number;
-  _sourceFile: string;
-  id: string;
-};
-
 export const runtime = "nodejs";
-
-function publicDocument(document: Record<string, unknown>) {
-  const { _id, _position, _sourceFile, ...content } = document;
-  void _id;
-  void _position;
-  void _sourceFile;
-  return content;
-}
 
 export async function GET(request: NextRequest, { params }: RouteContext) {
   if (!(await getAdminSession())) {
@@ -35,17 +20,16 @@ export async function GET(request: NextRequest, { params }: RouteContext) {
   }
 
   const query = request.nextUrl.searchParams.get("q")?.trim().toLowerCase() || "";
-  const database = await getDatabase();
-  const records = await database.collection<AdminStoredDocument>(collection).find({}).sort({ _position: 1 }).limit(1000).toArray();
-  const documents = records
-    .map((record) => publicDocument(record))
+  const workspace = await getCollectionWorkspace(collection);
+  const documents = workspace.documents
     .filter((record) => !query || JSON.stringify(record).toLowerCase().includes(query));
 
-  return NextResponse.json({ documents, total: documents.length });
+  return NextResponse.json({ ...workspace, documents, total: documents.length });
 }
 
 export async function POST(request: NextRequest, { params }: RouteContext) {
-  if (!(await getAdminSession())) {
+  const session = await getAdminSession();
+  if (!session) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
@@ -64,15 +48,13 @@ export async function POST(request: NextRequest, { params }: RouteContext) {
   void _id;
   void _position;
   void _sourceFile;
-  const database = await getDatabase();
-  const target = database.collection<AdminStoredDocument>(collection);
-  const exists = await target.findOne({ _id: id });
-  if (exists) {
+  const result = await stageCreateDraft(collection, id, content, session.email);
+  if (!result.created) {
     return NextResponse.json({ error: `A record with id "${id}" already exists.` }, { status: 409 });
   }
 
-  const last = await target.find({}).sort({ _position: -1 }).limit(1).next();
-  const position = typeof last?._position === "number" ? last._position + 1 : 0;
-  await target.insertOne({ _id: id, _position: position, _sourceFile: "admin", ...content, id });
-  return NextResponse.json({ document: { ...content, id } }, { status: 201 });
+  return NextResponse.json(
+    { document: { ...content, id }, draft: result.draft, totalDraftCount: result.totalDraftCount },
+    { status: 201 },
+  );
 }
