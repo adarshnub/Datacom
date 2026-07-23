@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import { getCertificates } from "../lib/data";
 import TrustPageClient from "./TrustPageClient";
 
-export const dynamic = "force-dynamic";
-
 export const metadata: Metadata = {
   title: "Trust & Compliance Centre | Datacom",
   description:

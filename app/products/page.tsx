@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import { getProductsPageData } from "../lib/data";
 import ProductsPageClient from "./ProductsPageClient";
 
-export const dynamic = "force-dynamic";
-
 export const metadata: Metadata = {
   title: "Technical Product Catalogue | Datacom",
   description:

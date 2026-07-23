@@ -1,8 +1,6 @@
 import HomePageClient from "./HomePageClient";
 import { getHomePageData } from "./lib/data";
 
-export const dynamic = "force-dynamic";
-
 export default async function Home() {
   const { featuredProducts, productHierarchy, verificationIndex, siteContent } = await getHomePageData();
 

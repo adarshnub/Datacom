@@ -13,6 +13,7 @@ function createClientPromise() {
 
   const client = new MongoClient(uri, {
     maxPoolSize: 10,
+    serverSelectionTimeoutMS: 5_000,
     serverApi: {
       version: ServerApiVersion.v1,
       strict: true,
@@ -25,7 +26,10 @@ function createClientPromise() {
 
 export function getMongoClient() {
   if (!globalForMongo.datacomMongoClientPromise) {
-    globalForMongo.datacomMongoClientPromise = createClientPromise();
+    globalForMongo.datacomMongoClientPromise = createClientPromise().catch((error) => {
+      globalForMongo.datacomMongoClientPromise = undefined;
+      throw error;
+    });
   }
 
   return globalForMongo.datacomMongoClientPromise;
